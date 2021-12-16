@@ -1,0 +1,1447 @@
+[INFO] - 2021-12-13 19:16:11,447 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-13 19:17:00,457 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 19:17:00] "GET / HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-13 19:18:48,050 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 19:18:48] "GET / HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 19:21:54,143 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1538, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1730, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a Employee.
+[INFO] - 2021-12-13 19:21:54,146 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 19:21:54] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 19:23:12,729 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1538, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1730, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a Employee.
+[INFO] - 2021-12-13 19:23:12,730 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 19:23:12] "[35m[1mPOST //login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-13 19:23:26,270 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-13 19:23:28,354 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 19:23:28] "GET / HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-13 19:24:04,153 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 19:24:04] "GET / HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 19:24:09,020 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1519, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1538, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1730, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a Employee.
+[INFO] - 2021-12-13 19:24:09,021 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 19:24:09] "[35m[1mPOST //login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-13 19:26:03,516 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-13 19:26:06,622 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 19:26:06] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-13 21:37:46,258 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-13 21:37:49,204 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 21:37:49] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 21:42:05,675 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 21:42:05,676 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 21:42:05] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 21:42:06,886 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 21:42:06,887 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 21:42:06] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 21:42:07,049 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 21:42:07,049 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 21:42:07] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 21:42:07,258 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 21:42:07,259 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 21:42:07] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 21:42:07,363 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 21:42:07,363 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 21:42:07] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 21:42:07,495 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 21:42:07,496 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 21:42:07] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 21:42:24,979 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 21:42:24,980 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 21:42:24] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 21:42:25,951 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 21:42:25,951 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 21:42:25] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 21:42:26,144 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 21:42:26,144 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 21:42:26] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 21:42:26,285 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 21:42:26,286 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 21:42:26] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 21:42:26,458 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 21:42:26,458 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 21:42:26] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 21:42:26,620 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 21:42:26,621 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 21:42:26] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 21:42:26,791 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 21:42:26,792 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 21:42:26] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 21:44:11,586 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 21:44:11,587 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 21:44:11] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-13 21:45:49,776 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-13 21:46:42,762 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 21:46:42] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 21:47:00,880 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 21:47:00,881 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 21:47:00] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 21:56:14,337 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 21:56:14,338 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 21:56:14] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 21:57:17,522 - main - : Exception on /player [GET] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 64, in get_employee_reimbursements
+    return employee_service.service_get_employee_reimbursements(employee_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\service_layer\implementation_classes\employee_service_imp.py", line 20, in service_get_employee_reimbursements
+    return self.employee_dao.get_employee_reimbursements(employee)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\data_access_layer\implementation_classes\employee_dao_imp.py", line 72, in get_employee_reimbursements
+    cursor.execute(f"select * from reimbursement_table where employee_id = {employee.employee_id}")
+  File "C:\Venv\lib\site-packages\psycopg\cursor.py", line 564, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.UndefinedColumn: column "player" does not exist
+LINE 1: select * from reimbursement_table where employee_id = player
+                                                              ^
+[INFO] - 2021-12-13 21:57:17,533 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 21:57:17] "[35m[1mGET /player HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 22:01:21,310 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 22:01:21,311 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 22:01:21] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 22:03:11,720 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 22:03:11,721 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 22:03:11] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 22:04:34,803 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 22:04:34,804 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 22:04:34] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 22:05:48,076 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 22:05:48,077 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 22:05:48] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 22:05:51,619 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 22:05:51,620 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 22:05:51] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 22:06:17,821 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 22:06:17,822 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 22:06:17] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 22:09:38,424 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 22:09:38,424 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 22:09:38] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 22:11:54,355 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 22:11:54,356 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 22:11:54] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 22:12:10,114 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 22:12:10,114 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 22:12:10] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-13 22:12:56,880 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 22:14:32,241 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 22:14:32,243 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 22:14:32] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-13 22:16:10,919 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 22:16:10] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 22:17:08,529 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 22:17:08,530 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 22:17:08] "[35m[1mPOST //login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-13 22:17:48,228 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 22:17:48] "POST /login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 22:18:16,913 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 22:18:16,914 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 22:18:16] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 22:22:39,671 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 34, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 22:22:39,671 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 22:22:39] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-13 22:29:30,267 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-13 22:29:40,648 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 37, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-13 22:29:40,650 - werkzeug - : 127.0.0.1 - - [13/Dec/2021 22:29:40] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:05:12,701 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:06:56,313 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:06:56] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-14 13:06:59,083 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 37, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-14 13:06:59,087 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:06:59] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-14 13:07:12,311 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 37, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-14 13:07:12,312 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:07:12] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-14 13:14:37,954 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 37, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-14 13:14:37,955 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:14:37] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-14 13:14:41,542 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 37, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-14 13:14:41,542 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:14:41] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-14 13:14:44,288 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 37, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-14 13:14:44,289 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:14:44] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-14 13:15:15,183 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 37, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-14 13:15:15,184 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:15:15] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:16:02,120 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:16:02] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-14 13:16:07,636 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 37, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-14 13:16:07,637 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:16:07] "[35m[1mPOST //login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:16:32,908 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:16:32] "[31m[1mPOST //login HTTP/1.1[0m" 400 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-14 13:16:43,726 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 40, in service_check_employee_login
+    employee_as_object = employee_service.service_check_employee_login(employee_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\service_layer\implementation_classes\employee_service_imp.py", line 12, in service_check_employee_login
+    return self.employee_dao.check_employee_login(employee)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\data_access_layer\implementation_classes\employee_dao_imp.py", line 51, in check_employee_login
+    raise LoginFailed('Login entered incorrectly')
+custom_exceptions.login_failed.LoginFailed: Login entered incorrectly
+[INFO] - 2021-12-14 13:16:43,796 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:16:43] "[35m[1mPOST //login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:17:09,008 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:17:09] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-14 13:17:28,939 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 37, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-14 13:17:28,940 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:17:28] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:19:01,449 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:19:01] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-14 13:20:07,599 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 37, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-14 13:20:07,600 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:20:07] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-14 13:20:10,957 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 37, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-14 13:20:10,958 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:20:10] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-14 13:20:36,545 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 37, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-14 13:20:36,546 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:20:36] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:22:04,065 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:22:04] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-14 13:22:33,770 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 37, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-14 13:22:33,771 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:22:33] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:23:37,095 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:23:37] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:31:02,085 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:31:02] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-14 13:31:09,789 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 37, in service_check_employee_login
+    employee_username = info["employeeUsername"]
+TypeError: 'NoneType' object is not subscriptable
+[INFO] - 2021-12-14 13:31:09,790 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:31:09] "[35m[1mPOST /login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:31:40,079 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:32:08,703 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:32:08] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:32:08,748 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:32:08] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:32:15,028 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:32:15] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:32:15,080 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:32:15] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:32:29,171 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:32:29] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:33:18,226 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:33:18] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:33:18,270 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:33:18] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:34:53,112 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:34:53] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-14 13:34:53,159 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 40, in service_check_employee_login
+    employee_as_object = employee_service.service_check_employee_login(employee_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\service_layer\implementation_classes\employee_service_imp.py", line 12, in service_check_employee_login
+    return self.employee_dao.check_employee_login(employee)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\data_access_layer\implementation_classes\employee_dao_imp.py", line 51, in check_employee_login
+    raise LoginFailed('Login entered incorrectly')
+custom_exceptions.login_failed.LoginFailed: Login entered incorrectly
+[INFO] - 2021-12-14 13:34:53,162 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:34:53] "[35m[1mPOST //login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:34:57,058 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:34:57] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:35:21,235 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:35:21] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:35:21,333 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:35:21] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:36:17,857 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:36:17] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:36:17,904 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:36:17] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:36:41,905 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:36:41] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:36:41,951 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:36:41] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:36:46,826 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:36:46] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:37:51,582 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:37:51] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:37:51,626 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:37:51] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:41:03,790 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:41:03] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:41:03,836 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:41:03] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:52:29,520 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:52:29] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:52:29,567 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:52:29] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:53:12,597 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:53:12] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:53:12,643 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:53:12] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:54:01,313 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:54:01] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-14 13:54:01,360 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 40, in service_check_employee_login
+    employee_as_object = employee_service.service_check_employee_login(employee_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\service_layer\implementation_classes\employee_service_imp.py", line 12, in service_check_employee_login
+    return self.employee_dao.check_employee_login(employee)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\data_access_layer\implementation_classes\employee_dao_imp.py", line 51, in check_employee_login
+    raise LoginFailed('Login entered incorrectly')
+custom_exceptions.login_failed.LoginFailed: Login entered incorrectly
+[INFO] - 2021-12-14 13:54:01,361 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:54:01] "[35m[1mPOST //login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 13:54:05,719 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 13:54:05] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 14:03:15,390 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 14:03:15] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 14:03:15,440 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 14:03:15] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 14:13:42,319 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 14:13:42] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 14:13:42,365 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 14:13:42] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 14:13:47,364 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 14:13:47] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-14 14:13:47,411 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 40, in service_check_employee_login
+    employee_as_object = employee_service.service_check_employee_login(employee_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\service_layer\implementation_classes\employee_service_imp.py", line 12, in service_check_employee_login
+    return self.employee_dao.check_employee_login(employee)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\data_access_layer\implementation_classes\employee_dao_imp.py", line 51, in check_employee_login
+    raise LoginFailed('Login entered incorrectly')
+custom_exceptions.login_failed.LoginFailed: Login entered incorrectly
+[INFO] - 2021-12-14 14:13:47,412 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 14:13:47] "[35m[1mPOST //login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 14:13:54,945 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 14:13:54] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-14 14:13:54,997 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 40, in service_check_employee_login
+    employee_as_object = employee_service.service_check_employee_login(employee_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\service_layer\implementation_classes\employee_service_imp.py", line 12, in service_check_employee_login
+    return self.employee_dao.check_employee_login(employee)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\data_access_layer\implementation_classes\employee_dao_imp.py", line 51, in check_employee_login
+    raise LoginFailed('Login entered incorrectly')
+custom_exceptions.login_failed.LoginFailed: Login entered incorrectly
+[INFO] - 2021-12-14 14:13:54,998 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 14:13:54] "[35m[1mPOST //login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 14:14:12,080 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 14:14:12] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 14:14:12,124 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 14:14:12] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-14 14:16:33,860 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 40, in service_check_employee_login
+    employee_as_object = employee_service.service_check_employee_login(employee_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\service_layer\implementation_classes\employee_service_imp.py", line 12, in service_check_employee_login
+    return self.employee_dao.check_employee_login(employee)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\data_access_layer\implementation_classes\employee_dao_imp.py", line 51, in check_employee_login
+    raise LoginFailed('Login entered incorrectly')
+custom_exceptions.login_failed.LoginFailed: Login entered incorrectly
+[INFO] - 2021-12-14 14:16:33,861 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 14:16:33] "[35m[1mPOST //login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 14:16:38,961 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 14:16:38] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 14:39:29,301 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 14:39:29] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 14:39:29,347 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 14:39:29] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 14:39:31,788 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 14:39:31] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 15:21:21,608 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 15:21:21] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 15:21:21,656 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 15:21:21] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 15:51:59,242 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 15:51:59] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 15:52:21,659 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 15:52:21] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 15:53:59,345 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 15:53:59] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:19:05,706 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 16:19:05] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:19:05,753 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 16:19:05] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:19:12,643 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 16:19:12] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:19:12,692 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 16:19:12] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:34:57,569 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 16:34:57] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:34:57,614 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 16:34:57] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:38:03,629 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:38:07,624 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 16:38:07] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:38:07,675 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 16:38:07] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:38:12,639 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 16:38:12] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:38:12,685 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 16:38:12] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:40:50,836 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:40:53,205 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 16:40:53] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:40:53,249 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 16:40:53] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:40:57,818 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 16:40:57] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:41:05,987 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 16:41:05] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:41:06,033 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 16:41:06] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:41:26,123 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 16:41:26] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:41:26,167 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 16:41:26] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:41:32,641 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 16:41:32] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:41:32,686 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 16:41:32] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:41:39,020 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 16:41:39] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:41:39,064 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 16:41:39] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:42:33,778 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:42:36,249 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 16:42:36] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:42:36,299 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 16:42:36] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-14 16:57:00,729 - werkzeug - : 127.0.0.1 - - [14/Dec/2021 16:57:00] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 09:09:59,784 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 09:10:01,744 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 09:10:01] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 09:10:01,789 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 09:10:01] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 09:10:44,904 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 09:10:44] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 09:10:44,950 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 09:10:44] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 09:10:48,756 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 09:10:48] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 09:10:53,349 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 09:10:53] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 09:10:53,394 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 09:10:53] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 09:10:57,668 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 09:10:57] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:01:16,902 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:01:16] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:01:16,949 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:01:16] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:34:49,962 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:34:49] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:35:17,503 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:35:17] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:35:17,594 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:35:17] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:35:42,218 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:35:42] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:35:42,270 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:35:42] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:35:45,957 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:35:45] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:36:41,950 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:36:41] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:36:41,996 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:36:41] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:36:48,292 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:36:48] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:36:48,337 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:36:48] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:37:17,255 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:37:17] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:37:17,304 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:37:17] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:37:24,619 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:37:24] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:37:24,664 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:37:24] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:37:34,959 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:37:34] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:37:35,008 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:37:35] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:38:38,504 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:38:38] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:38:38,548 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:38:38] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:39:18,853 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:39:18] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:39:18,902 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:39:18] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:39:29,888 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:39:29] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:39:29,933 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:39:29] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:49:41,381 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:49:41] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:49:41,431 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:49:41] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:49:46,779 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:49:46] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:49:46,824 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:49:46] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:49:56,990 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:49:56] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 10:49:57,036 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 10:49:57] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 13:27:43,813 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 13:32:26,209 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 13:32:26] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 13:32:26,255 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 13:32:26] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 13:45:46,781 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 13:45:46] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 13:45:46,825 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 13:45:46] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 13:46:28,518 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 13:46:28] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 13:46:28,563 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 13:46:28] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 13:48:14,207 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 13:48:14] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 13:48:14,250 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 13:48:14] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 13:52:19,175 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 13:52:19] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 13:52:19,222 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 13:52:19] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 13:52:59,054 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 13:52:59] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 13:52:59,142 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 13:52:59] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 14:01:23,217 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 14:01:23] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 14:01:23,262 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 14:01:23] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 14:02:05,671 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 14:02:05] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 14:02:05,718 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 14:02:05] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 14:02:14,388 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 14:02:14] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 14:02:14,433 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 14:02:14] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 14:45:12,334 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 14:45:12] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 14:45:12,379 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 14:45:12] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:23:21,819 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:23:21] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:23:21,876 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:23:21] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:23:30,145 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:23:30] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:23:30,190 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:23:30] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:23:34,846 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:23:34] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:26:44,262 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:26:44] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:26:44,308 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:26:44] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:26:48,035 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:26:48] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:32:37,691 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:32:37] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:32:37,739 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:32:37] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:33:14,536 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:33:14] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:33:14,581 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:33:14] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:34:25,308 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:34:25] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:34:25,354 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:34:25] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:34:28,415 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:34:28] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:34:30,905 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:34:30] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:34:30,951 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:34:30] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:34:35,716 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:34:35] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:34:41,348 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:34:41] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:34:41,401 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:34:41] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:36:28,601 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:36:28] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:36:28,653 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:36:28] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:45:12,146 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:45:12] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:45:12,197 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:45:12] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:46:22,901 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:46:22] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:46:22,946 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:46:22] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:53:12,264 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:53:12] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:53:12,311 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:53:12] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:56:25,216 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:56:25] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:56:25,260 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:56:25] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:56:29,151 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:56:29] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:56:33,423 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:56:33] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:56:33,470 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:56:33] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:56:52,296 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:56:52] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:56:52,343 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:56:52] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:56:54,853 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:56:54] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:57:02,760 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:57:02] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:57:02,809 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:57:02] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:57:32,493 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:57:32] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:57:32,539 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:57:32] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:57:35,654 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:57:35] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:58:32,794 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:58:32] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:58:32,842 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:58:32] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:59:00,823 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:59:00] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 15:59:00,868 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 15:59:00] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 16:00:06,660 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 16:00:06] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 16:00:06,704 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 16:00:06] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 16:00:36,705 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 16:00:36] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 16:00:36,751 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 16:00:36] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 16:01:02,973 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 16:01:02] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 16:01:03,022 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 16:01:03] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 16:01:27,277 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 16:01:27] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 16:01:27,322 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 16:01:27] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 16:14:57,159 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 16:14:57] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 16:14:57,203 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 16:14:57] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 16:21:45,991 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 16:21:45] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 16:21:46,038 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 16:21:46] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 16:21:49,645 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 16:21:49] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 16:22:16,861 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 16:22:16] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 16:22:16,909 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 16:22:16] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 16:24:47,276 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 16:24:47] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 16:52:00,270 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 16:52:00] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 16:52:00,315 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 16:52:00] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 16:53:09,292 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 16:53:09] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 16:53:09,341 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 16:53:09] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 16:57:13,508 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 16:57:13] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 16:57:13,557 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 16:57:13] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 16:57:48,969 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 16:57:48] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 16:57:49,018 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 16:57:49] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 17:03:21,346 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 17:03:21] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 17:03:21,391 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 17:03:21] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 17:04:14,674 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 17:04:14] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 17:04:14,718 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 17:04:14] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 17:06:57,624 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 17:06:57] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 17:06:57,669 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 17:06:57] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 17:08:51,002 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 17:08:51] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 17:08:51,049 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 17:08:51] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 17:09:16,742 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 17:09:16] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 17:09:16,825 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 17:09:16] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 17:10:50,889 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 17:10:50] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 17:10:50,934 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 17:10:50] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 17:11:36,139 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 17:11:36] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 17:11:36,198 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 17:11:36] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 17:12:19,962 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 17:12:19] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-15 17:12:20,008 - werkzeug - : 127.0.0.1 - - [15/Dec/2021 17:12:20] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 09:03:21,438 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 09:03:32,755 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 09:03:32] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 09:03:32,802 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 09:03:32] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 09:49:34,233 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 09:51:29,720 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 09:51:29] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 10:03:30,374 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 10:03:30] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 10:04:32,148 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 10:04:32] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 10:04:32,200 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 10:04:32] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 10:33:53,157 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 10:33:53] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 10:33:53,202 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 10:33:53] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 10:34:23,422 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 10:34:23] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 10:34:23,466 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 10:34:23] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 10:35:02,193 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 10:35:02] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 10:35:02,237 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 10:35:02] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 10:35:45,126 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 10:35:45] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 10:35:45,173 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 10:35:45] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 10:35:45,301 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 10:35:45] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 10:41:53,136 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 10:41:54,853 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 10:41:54] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 10:45:46,152 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 10:45:46] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 10:45:46,197 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 10:45:46] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 10:45:46,318 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 10:45:46] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 10:45:58,782 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 10:45:58] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 10:45:58,827 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 10:45:58] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 10:45:58,930 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 10:45:58] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 10:48:57,738 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 10:48:57] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 10:48:57,785 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 10:48:57] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 10:48:57,886 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 10:48:57] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:07:23,258 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:07:23] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:07:23,304 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:07:23] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:07:33,196 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:07:53,046 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:07:53] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:07:53,090 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:07:53] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:08:47,912 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:08:47] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:08:47,957 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:08:47] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:08:48,071 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:08:48] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:17:33,553 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:17:33] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:17:33,598 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:17:33] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:17:33,741 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:17:33] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:26:16,062 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:26:16] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:26:16,108 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:26:16] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:26:16,259 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:26:16] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-16 11:37:40,337 - main - : Exception on /reimbursement [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 84, in service_create_reimbursement
+    employee_id = info["employeeId"],
+KeyError: 'reimbursementId'
+[INFO] - 2021-12-16 11:37:40,340 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:37:40] "[35m[1mPOST //reimbursement HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:39:46,486 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-16 11:39:47,775 - main - : Exception on /reimbursement [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 88, in service_create_reimbursement
+    return reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\service_layer\implementation_classes\reimbursement_service_imp.py", line 17, in service_create_reimbursement
+    return self.reimbursement_dao.create_reimbursement(reimbursement)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\data_access_layer\implementation_classes\reimbursement_dao_imp.py", line 49, in create_reimbursement
+    cursor.execute(sql)
+  File "C:\Venv\lib\site-packages\psycopg\cursor.py", line 564, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.SyntaxError: syntax error at or near "to"
+LINE 1: ...004', '(10000002,)', '2021-12-16', '(23.12,)', '('to test th...
+                                                             ^
+[INFO] - 2021-12-16 11:39:47,778 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:39:47] "[35m[1mPOST //reimbursement HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-16 11:39:57,580 - main - : Exception on /10000002 [GET] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 76, in get_employee_reimbursements
+    reimbursements_as_dict = employee_service.service_get_employee_reimbursements(employee_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\service_layer\implementation_classes\employee_service_imp.py", line 20, in service_get_employee_reimbursements
+    return self.employee_dao.get_employee_reimbursements(employee)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\data_access_layer\implementation_classes\employee_dao_imp.py", line 72, in get_employee_reimbursements
+    cursor.execute(f"select * from reimbursement_table where employee_id = {employee.employee_id}")
+  File "C:\Venv\lib\site-packages\psycopg\cursor.py", line 564, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InFailedSqlTransaction: current transaction is aborted, commands ignored until end of transaction block
+[INFO] - 2021-12-16 11:39:57,581 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:39:57] "[35m[1mGET //10000002 HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-16 11:40:04,164 - main - : Exception on /reimbursement [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 88, in service_create_reimbursement
+    return reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\service_layer\implementation_classes\reimbursement_service_imp.py", line 17, in service_create_reimbursement
+    return self.reimbursement_dao.create_reimbursement(reimbursement)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\data_access_layer\implementation_classes\reimbursement_dao_imp.py", line 49, in create_reimbursement
+    cursor.execute(sql)
+  File "C:\Venv\lib\site-packages\psycopg\cursor.py", line 564, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.SyntaxError: syntax error at or near "to"
+LINE 1: ...005', '(10000002,)', '2021-12-16', '(23.12,)', '('to test th...
+                                                             ^
+[INFO] - 2021-12-16 11:40:04,165 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:40:04] "[35m[1mPOST //reimbursement HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-16 11:40:06,602 - main - : Exception on /login [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 47, in service_check_employee_login
+    employee_as_object = employee_service.service_check_employee_login(employee_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\service_layer\implementation_classes\employee_service_imp.py", line 12, in service_check_employee_login
+    return self.employee_dao.check_employee_login(employee)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\data_access_layer\implementation_classes\employee_dao_imp.py", line 43, in check_employee_login
+    cursor.execute(sql)
+  File "C:\Venv\lib\site-packages\psycopg\cursor.py", line 564, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InFailedSqlTransaction: current transaction is aborted, commands ignored until end of transaction block
+[INFO] - 2021-12-16 11:40:06,603 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:40:06] "[35m[1mPOST //login HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:40:37,054 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:40:48,025 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:40:48] "GET / HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:40:50,371 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:40:50] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:40:52,969 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:40:52] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-16 11:40:55,310 - main - : Exception on /reimbursement [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 88, in service_create_reimbursement
+    return reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\service_layer\implementation_classes\reimbursement_service_imp.py", line 17, in service_create_reimbursement
+    return self.reimbursement_dao.create_reimbursement(reimbursement)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\data_access_layer\implementation_classes\reimbursement_dao_imp.py", line 49, in create_reimbursement
+    cursor.execute(sql)
+  File "C:\Venv\lib\site-packages\psycopg\cursor.py", line 564, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.SyntaxError: syntax error at or near "to"
+LINE 1: ...004', '(10000002,)', '2021-12-16', '(23.12,)', '('to test th...
+                                                             ^
+[INFO] - 2021-12-16 11:40:55,314 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:40:55] "[35m[1mPOST //reimbursement HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-16 11:40:57,408 - main - : Exception on /10000002 [GET] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 76, in get_employee_reimbursements
+    reimbursements_as_dict = employee_service.service_get_employee_reimbursements(employee_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\service_layer\implementation_classes\employee_service_imp.py", line 20, in service_get_employee_reimbursements
+    return self.employee_dao.get_employee_reimbursements(employee)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\data_access_layer\implementation_classes\employee_dao_imp.py", line 72, in get_employee_reimbursements
+    cursor.execute(f"select * from reimbursement_table where employee_id = {employee.employee_id}")
+  File "C:\Venv\lib\site-packages\psycopg\cursor.py", line 564, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InFailedSqlTransaction: current transaction is aborted, commands ignored until end of transaction block
+[INFO] - 2021-12-16 11:40:57,409 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:40:57] "[35m[1mGET //10000002 HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:41:59,158 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:42:01,253 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:42:01] "GET / HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:42:04,792 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:42:04] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:42:06,986 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:42:06] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-16 11:42:09,252 - main - : Exception on /reimbursement [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 88, in service_create_reimbursement
+    return reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\service_layer\implementation_classes\reimbursement_service_imp.py", line 17, in service_create_reimbursement
+    return self.reimbursement_dao.create_reimbursement(reimbursement)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\data_access_layer\implementation_classes\reimbursement_dao_imp.py", line 49, in create_reimbursement
+    cursor.execute(sql)
+  File "C:\Venv\lib\site-packages\psycopg\cursor.py", line 564, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.SyntaxError: syntax error at or near "to"
+LINE 1: ...004', '(10000002,)', '2021-12-16', '(23.12,)', '('to test th...
+                                                             ^
+[INFO] - 2021-12-16 11:42:09,254 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:42:09] "[35m[1mPOST //reimbursement HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:44:02,041 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:44:06,269 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:44:06] "GET / HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:44:07,758 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:44:07] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:44:09,791 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:44:09] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-16 11:44:11,523 - main - : Exception on /reimbursement [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 88, in service_create_reimbursement
+    new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\service_layer\implementation_classes\reimbursement_service_imp.py", line 17, in service_create_reimbursement
+    return self.reimbursement_dao.create_reimbursement(reimbursement)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\data_access_layer\implementation_classes\reimbursement_dao_imp.py", line 49, in create_reimbursement
+    cursor.execute(sql)
+  File "C:\Venv\lib\site-packages\psycopg\cursor.py", line 564, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.SyntaxError: syntax error at or near "to"
+LINE 1: ...004', '(10000002,)', '2021-12-16', '(23.12,)', '('to test th...
+                                                             ^
+[INFO] - 2021-12-16 11:44:11,526 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:44:11] "[35m[1mPOST //reimbursement HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:46:31,341 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:46:37,184 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:46:37] "GET / HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:46:39,265 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:46:39] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:46:41,513 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:46:41] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-16 11:46:43,985 - main - : Exception on /reimbursement [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 88, in service_create_reimbursement
+    new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\service_layer\implementation_classes\reimbursement_service_imp.py", line 17, in service_create_reimbursement
+    return self.reimbursement_dao.create_reimbursement(reimbursement)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\data_access_layer\implementation_classes\reimbursement_dao_imp.py", line 49, in create_reimbursement
+    cursor.execute(sql)
+  File "C:\Venv\lib\site-packages\psycopg\cursor.py", line 564, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.SyntaxError: syntax error at or near "to"
+LINE 1: ...004', '(10000002,)', '2021-12-16', '(23.12,)', '('to test th...
+                                                             ^
+[INFO] - 2021-12-16 11:46:43,988 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:46:43] "[35m[1mPOST //reimbursement HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:47:24,970 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-16 11:47:33,181 - main - : Exception on /reimbursement [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 88, in service_create_reimbursement
+    new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\service_layer\implementation_classes\reimbursement_service_imp.py", line 17, in service_create_reimbursement
+    return self.reimbursement_dao.create_reimbursement(reimbursement)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\data_access_layer\implementation_classes\reimbursement_dao_imp.py", line 49, in create_reimbursement
+    cursor.execute(sql)
+  File "C:\Venv\lib\site-packages\psycopg\cursor.py", line 564, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.SyntaxError: syntax error at or near "to"
+LINE 1: ...004', '(10000002,)', '2021-12-16', '(23.12,)', '('to test th...
+                                                             ^
+[INFO] - 2021-12-16 11:47:33,184 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:47:33] "[35m[1mPOST //reimbursement HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-16 11:48:40,407 - main - : Exception on /reimbursement [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 88, in service_create_reimbursement
+    reason = info["reason"],
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\service_layer\implementation_classes\reimbursement_service_imp.py", line 17, in service_create_reimbursement
+    return self.reimbursement_dao.create_reimbursement(reimbursement)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\data_access_layer\implementation_classes\reimbursement_dao_imp.py", line 49, in create_reimbursement
+    cursor.execute(sql)
+  File "C:\Venv\lib\site-packages\psycopg\cursor.py", line 564, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.SyntaxError: syntax error at or near "to"
+LINE 1: ...005', '(10000002,)', '2021-12-16', '(23.12,)', '('to test th...
+                                                             ^
+[INFO] - 2021-12-16 11:48:40,408 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:48:40] "[35m[1mPOST //reimbursement HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-16 11:48:56,096 - main - : Exception on /reimbursement [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 88, in service_create_reimbursement
+    reason = info["reason"],
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\service_layer\implementation_classes\reimbursement_service_imp.py", line 17, in service_create_reimbursement
+    return self.reimbursement_dao.create_reimbursement(reimbursement)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\data_access_layer\implementation_classes\reimbursement_dao_imp.py", line 49, in create_reimbursement
+    cursor.execute(sql)
+  File "C:\Venv\lib\site-packages\psycopg\cursor.py", line 564, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.SyntaxError: syntax error at or near "testing"
+LINE 1: ...006', '(10000002,)', '2021-12-16', '(23.12,)', '('testing',)...
+                                                             ^
+[INFO] - 2021-12-16 11:48:56,097 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:48:56] "[35m[1mPOST //reimbursement HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:49:35,740 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:49:37,545 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:49:37] "POST //reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:49:58,458 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:49:58] "POST //reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:52:32,224 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:52:32] "POST //reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:52:36,994 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:52:38,960 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:52:38] "POST //reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:52:49,295 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:52:49] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:52:51,200 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:52:51] "POST //reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:52:55,720 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:52:55] "POST //reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:53:22,650 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:53:22] "POST //reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:54:54,090 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:54:56,202 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:54:56] "POST //reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:55:55,417 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-16 11:55:57,531 - main - : Exception on /reimbursement [POST] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\main.py", line 89, in service_create_reimbursement
+    new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\service_layer\implementation_classes\reimbursement_service_imp.py", line 17, in service_create_reimbursement
+    return self.reimbursement_dao.create_reimbursement(reimbursement)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\data_access_layer\implementation_classes\reimbursement_dao_imp.py", line 45, in create_reimbursement
+    f"'{date.fromtimestamp()}', '{reimbursement.amount}', '{reimbursement.reason}', " \
+TypeError: date.fromtimestamp() takes exactly one argument (0 given)
+[INFO] - 2021-12-16 11:55:57,533 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:55:57] "[35m[1mPOST //reimbursement HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:56:10,566 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:56:12,482 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:56:12] "POST //reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:56:17,803 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:56:17] "POST //reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 11:56:20,550 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 11:56:20] "POST //reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 12:17:39,907 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 12:17:39] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 12:17:39,955 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 12:17:39] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-16 12:17:40,193 - werkzeug - : 127.0.0.1 - - [16/Dec/2021 12:17:40] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225

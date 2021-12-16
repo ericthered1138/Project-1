@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login_page.css">
+    <style>
+      .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 12px 15px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "topLeft top topRight"
+    "left loginArea right"
+    "bottomLeft bottom bottomRight";
+}
+
+.loginArea {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 0.5fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". userNameArea ."
+    ". passwordArea ."
+    ". submitArea .";
+  grid-area: loginArea;
+}
+
+.userNameArea { grid-area: userNameArea; }
+
+.passwordArea { grid-area: passwordArea; }
+
+.submitArea { grid-area: submitArea; }
+
+.topLeft {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+  grid-area: topLeft;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+  grid-area: top;
+}
+
+.topRight {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+  grid-area: topRight;
+}
+
+.right {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+  grid-area: right;
+}
+
+.bottomRight {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+  grid-area: bottomRight;
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+  grid-area: bottom;
+}
+
+.bottomLeft {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+  grid-area: bottomLeft;
+}
+
+.left {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+  grid-area: left;
+}
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="loginArea">
+      <div class="userNameArea">Username:<input type="text" id="username"></div>
+      <div class="passwordArea"> Password:<input type="password" id="password"></div>
+      <div class="submitArea"><button class="submitArea" onclick="loginAttempt()">Login</button></div>
+    </div>
+    <div class="topLeft"></div>
+    <div class="top"></div>
+    <div class="topRight"></div>
+    <div class="right"></div>
+    <div class="bottomRight"></div>
+    <div class="bottom"></div>
+    <div class="bottomLeft"></div>
+    <div class="left"></div>
+</body>
+<script src="login_page.js"></script>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="employee_page.css">
+    <title>Employee</title>
+    <style>
+        .container {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  grid-template-rows: 30% 30% 30%;
+  gap: 3% 2%;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "employeeInformation top topRight"
+    "left createReimbursementDiv reimbursementStatistics"
+    "bottomLeft reimbursementPending reimbursementPrevious";
+}
+
+.employeeInformation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+  grid-area: employeeInformation;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+  grid-area: top;
+}
+
+.topRight {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+  grid-area: topRight;
+}
+
+.createReimbursementDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+  grid-area: createReimbursementDiv;
+}
+
+.reimbursementStatistics {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+  grid-area: reimbursementStatistics;
+}
+
+.reimbursementPending {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+  grid-area: reimbursementPending;
+}
+
+.reimbursementPrevious {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+  grid-area: reimbursementPrevious;
+}
+
+.left {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+  grid-area: left;
+}
+
+.bottomLeft {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+  grid-area: bottomLeft;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="employeeInformation">
+          <h1 id = "employeeName"></h1>
+        </div>
+        <div class="top">top</div>
+        <div class="topRight">top right</div>
+        <div class="createReimbursementDiv">create reimbursement</div>
+        <div class="reimbursementStatistics">reimbursement statistics</div>
+        <div class="reimbursementPending">pending reimbursements</div>
+        <div class="reimbursementPrevious">previous reimbursements</div>
+        <div class="left">left</div>
+        <div class="bottomLeft">bottom left</div>
+      </div>
+</body>
+<script src=employee_page.js></script>
+</html>
