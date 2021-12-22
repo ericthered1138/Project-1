@@ -1,3 +1,4 @@
+from entities.employee import Employee
 from service_layer.implementation_classes.employee_service_imp import EmployeeServiceImp
 from data_access_layer.implementation_classes.employee_dao_imp import EmployeeDaoImp
 
@@ -23,3 +24,10 @@ def test_service_get_employee_reimbursements():
 def test_service_get_employee_dict():
     """Nothing to check, yet."""
     pass
+
+
+def test_service_create_the_stats():
+    manager = Employee(employee_id=10000001)
+    dictionary_to_return = employee_service.service_create_the_stats(manager)
+    print(dictionary_to_return)
+    assert dictionary_to_return

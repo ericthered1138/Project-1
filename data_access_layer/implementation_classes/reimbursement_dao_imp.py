@@ -40,30 +40,34 @@ class ReimbursementDAOImp(ReimbursementDAO):
         self.reimbursement_id_counter += 1
 
         sql = f"insert into reimbursement_table (reimbursement_id, employee_id, reimbursement_date, amount, " \
-              f"reason, approval) " \
+              f"reason, approval, manager_comment) " \
               f"values ('{reimbursement.reimbursement_id}', '{reimbursement.employee_id}', " \
               f"'{date.today()}', '{reimbursement.amount}', '{reimbursement.reason}', " \
-              f"'{reimbursement.if_approved}');"
+              f"'{reimbursement.if_approved}', '{reimbursement.manager_comment}');"
 
         cursor = connection.cursor()
         cursor.execute(sql)
         connection.commit()
         return self.get_reimbursement(reimbursement)
 
-    def approve_reimbursement(self, reimbursement: Reimbursement) -> bool:
+    def approve_reimbursement(self, reimbursement: Reimbursement) -> Reimbursement:
         """For managers, to approve a reimbursement."""
         sql = f"update reimbursement_table set approval = 'yes' " \
+              f"where reimbursement_id = {reimbursement.reimbursement_id};" \
+              f"update reimbursement_table set manager_comment = '{reimbursement.manager_comment}' " \
               f"where reimbursement_id = {reimbursement.reimbursement_id}"
         cursor = connection.cursor()
         cursor.execute(sql)
         connection.commit()
-        return True
+        return self.get_reimbursement(reimbursement)
 
-    def disapprove_reimbursement(self, reimbursement: Reimbursement) -> bool:
+    def disapprove_reimbursement(self, reimbursement: Reimbursement) -> Reimbursement:
         """For managers, to disapprove a reimbursement."""
         sql = f"update reimbursement_table set approval = 'no' " \
+              f"where reimbursement_id = {reimbursement.reimbursement_id};" \
+              f"update reimbursement_table set manager_comment = '{reimbursement.manager_comment}' " \
               f"where reimbursement_id = {reimbursement.reimbursement_id}"
         cursor = connection.cursor()
         cursor.execute(sql)
         connection.commit()
-        return True
+        return self.get_reimbursement(reimbursement)

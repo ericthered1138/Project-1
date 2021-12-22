@@ -93,7 +93,7 @@ class EmployeeDaoImp(EmployeeDAO):
             employee_dict.update({employee_id: full_name})
         return employee_dict
 
-    def get_all_manager_reimbursements(self, manager: Employee) -> list:
+    def get_all_manager_reimbursements(self, manager: Employee) -> dict:
         """For the manager, grabs all reimbursements for employees of the manager."""
         cursor = connection.cursor()
         sql = f"select * from employee_table where manager_id = {manager.employee_id}"
@@ -106,7 +106,7 @@ class EmployeeDaoImp(EmployeeDAO):
             employee_list.append(employee_id)
 
         # Create a list of reimbursements and add dictionaries of each reimbursement.
-        reimbursement_list = []
+        reimbursement_dict = {}
         for employee in employee_list:
             cursor = connection.cursor()
             cursor.execute(f"select * from reimbursement_table where employee_id = {employee}")
@@ -115,5 +115,6 @@ class EmployeeDaoImp(EmployeeDAO):
             # Add all the reimbursements as dictionaries.
             for reimbursement in reimbursement_record:
                 current_reimbursement = Reimbursement(*reimbursement)
-                reimbursement_list.append(current_reimbursement.make_dictionary())
-        return reimbursement_list
+                reimbursement_dict.update(
+                    {current_reimbursement.reimbursement_id: current_reimbursement.make_dictionary()})
+        return reimbursement_dict

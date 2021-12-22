@@ -23,3 +23,13 @@ class EmployeeService(ABC):
     def service_get_employee_dict(self, manager: Employee) -> dict:
         """For the manager, grabs the employee list for the manager."""
         pass
+
+    @abstractmethod
+    def service_get_all_manager_reimbursements(self, manager: Employee) -> dict:
+        """For the manager, grabs the reimbursements for the manager."""
+        pass
+
+    @abstractmethod
+    def service_create_the_stats(self, manager: Employee) -> dict:
+        pass
+

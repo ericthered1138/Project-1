@@ -16,14 +16,14 @@ class ReimbursementServiceImp(ReimbursementService):
         self.employee_dao.get_employee(employee_id)
         return self.reimbursement_dao.create_reimbursement(reimbursement)
 
-    def service_approve_reimbursement(self, reimbursement: Reimbursement) -> bool:
+    def service_approve_reimbursement(self, reimbursement: Reimbursement) -> Reimbursement:
         """Check to see if the reimbursement is in the database and pending, then forward to the data access layer."""
         a_reimbursement = self.reimbursement_dao.get_reimbursement(reimbursement)
         if a_reimbursement.if_approved == 'pending':
             return self.reimbursement_dao.approve_reimbursement(reimbursement)
         raise ThatReimbursementIsNotPending('That reimbursement is not pending.')
 
-    def service_disapprove_reimbursement(self, reimbursement: Reimbursement) -> bool:
+    def service_disapprove_reimbursement(self, reimbursement: Reimbursement) -> Reimbursement:
         """Check to see if the reimbursement is in the database and pending, then forward to the data access layer."""
         a_reimbursement = self.reimbursement_dao.get_reimbursement(reimbursement)
         if a_reimbursement.if_approved == 'pending':

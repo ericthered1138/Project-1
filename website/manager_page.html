@@ -4,9 +4,134 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Manager</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
 </head>
-<body>
-    <h1>Manager Page</h1>
+<body style="color-scheme: dark;">
+    <div class="container">
+        <div class="row">
+          <div>
+            <h1 id = "employeeName"></h1>
+            <button type="button" onclick="logout()" class="btn btn-secondary" value="Logout" id="logout">Logout</button>
+          </div>
+          <!--Reimbursement Stats Begin.-->
+          <h2>Employee Statistics</h2>
+          <table class="table table-dark table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Employee Id</th>
+                <th scope="col">Reimbursement Acceptance Rate</th>
+                <th scope="col">Monthly Total Reimbursments</th>
+                <th scope="col">Average Reimbursement Cost</th>
+                <th scope="col">Number of Reimbursments</th>
+                <th scope="col">Total Reimbursements</th>
+              </tr>
+            </thead>
+            <tbody id="statisticsTable">
+            </tbody>
+          </table>
+          <!--Reimbursement Stats End.-->
+
+          <!--First Column.-->
+          <div class="col">
+            <!--Pending Employee Reimbursements start.-->
+            <div class = "row">
+              <h2>Employee Pending Reimbursements</h2>
+            </div>
+              <input id= "submitManagerReimbursementTable" class="btn btn-primary" onclick="submitEmployeePendingReimbursementForm()" type="submit" value="Submit">
+            <table class="table table-dark table-striped">
+              <thead>
+                  <tr>
+                  <th scope="col">Employee ID</th>
+                  <th scope="col">Reimbursement ID</th>
+                  <th scope="col">Amount</th>
+                  <th scope="col">Reason</th>
+                  <th scope="col">Date</th>
+                  <th scope="col">Set Status</th>
+                  <th scope="col">Manager Comment</th>
+                  </tr>
+              </thead>
+              <tbody id="employeePendingReimbursementTable">
+              </tbody>
+            </table>
+            <!--Pending Employee Reimbursements end.-->
+            <!--Previous Employee Reimbursements start.-->
+            <table class="table table-dark table-striped">
+              <h2>Employee Previous Reimbursements</h2>
+              <thead>
+                <tr>
+                  <th scope="col">Employee ID</th>
+                  <th scope="col">Reimbursement ID</th>
+                  <th scope="col">Amount</th>
+                  <th scope="col">Reason</th>
+                  <th scope="col">Date</th>
+                  <th scope="col">Status</th>
+                  <th scope="col">Comment</th>
+                </tr>
+              </thead>
+              <tbody id="employeeOldReimbursementTable">
+              </tbody>
+            </table>
+            <!--Previous Employee Reimbursements end.-->
+          </div>
+
+          <!--Second Column.-->
+          <div class="col">
+
+            <!--Create reimbursement form start.-->
+            <div class="row" style="background-color: brown;">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Reimbursement Amount</label>
+                <input type="number" class="form-control" id="reimbursementAmount" placeholder="Enter the amount here.">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Reimbursement Reason</label>
+                <textarea class="form-control" id="reimbursementReason" rows="3"></textarea>
+              </div>
+              <input class="btn btn-primary" onclick="createReimbursement()" type="submit" value="Create">
+            </div>
+            <!--Create reimbursement form end.-->
+            <!--Pending Reimbursement table start.-->
+            <table class="table table-dark table-striped">
+              <h2>Pending Reimbursements</h2>
+              <thead>
+                <tr>
+                  <th scope="col">Reimbursement ID</th>
+                  <th scope="col">Amount</th>
+                  <th scope="col">Reason</th>
+                  <th scope="col">Date</th>
+                </tr>
+              </thead>
+              <tbody id="pendingReimbursementTable">
+              </tbody>
+            </table>
+            <!--Pending Reimbursement table end.-->
+            <!--Old reimbursement table begin.-->
+            <table class="table table-dark table-striped">
+              <h2>Previous Reimbursements</h2>
+              <thead>
+                <tr>
+                  <th scope="col">Reimbursement ID</th>
+                  <th scope="col">Amount</th>
+                  <th scope="col">Reason</th>
+                  <th scope="col">Date</th>
+                  <th scope="col">Approved</th>
+                  <th scope="col">Comment</th>
+                </tr>
+              </thead>
+              <tbody id="oldReimbursementTable">
+              </tbody>
+            </table>
+            <!--Old reimbursement table end.-->
+          </div><!--Second Column End.-->
+
+          <!--Third Column.-->
+          <div class="col">
+            
+          </div>
+        </div>
+    </div>
+    <script src=manager_page.js></script>
+    <script src="js/bootstrap.bundle.js"></script>
 </body>
 </html>

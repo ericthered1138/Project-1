@@ -5,7 +5,6 @@ async function loginAttempt(){
 
     //put it in a json and post it to http://127.0.0.1:5000//login
     loginJson = JSON.stringify({"employeeUsername":username, "employeePasscode":password})
-    console.log(loginJson)
     let url = "http://127.0.0.1:5000//login"
     let the_request = await fetch(url, {
         method:"POST",

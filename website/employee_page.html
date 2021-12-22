@@ -2,156 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="employee_page.css">
     <title>Employee</title>
-    <style>
-        .container {
-  display: grid;
-  grid-template-columns: 30% 40% 30%;
-  grid-template-rows: 30% 30% 30%;
-  gap: 3% 2%;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "employeeInformation top topRight"
-    "left createReimbursementDiv reimbursementStatistics"
-    "bottomLeft reimbursementPending reimbursementPrevious";
-}
-
-.employeeInformation {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    ". . .";
-  grid-area: employeeInformation;
-}
-
-.top {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    ". . .";
-  grid-area: top;
-}
-
-.topRight {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    ". . .";
-  grid-area: topRight;
-}
-
-.createReimbursementDiv {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    ". . .";
-  grid-area: createReimbursementDiv;
-}
-
-.reimbursementStatistics {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    ". . .";
-  grid-area: reimbursementStatistics;
-}
-
-.reimbursementPending {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    ". . .";
-  grid-area: reimbursementPending;
-}
-
-.reimbursementPrevious {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    ". . .";
-  grid-area: reimbursementPrevious;
-}
-
-.left {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    ". . .";
-  grid-area: left;
-}
-
-.bottomLeft {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    ". . .";
-  grid-area: bottomLeft;
-}
-
-    </style>
+    <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
     <div class="container">
-        <div class="employeeInformation">
-          <h1 id = "employeeName"></h1>
+        <div class="row">
+          <!--Second Column.-->
+          <div class="col">
+            <div class="row">
+              <h1 id = "employeeName"></h1>
+              <button type="button" onclick="logout()" class="btn btn-secondary" value="Logout" id="logout">Logout</button>
+            </div>
+            <!--Create reimbursement form start.-->
+            <div class="row" style="background-color: brown;">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Reimbursement Amount</label>
+                <input type="number" class="form-control" id="reimbursementAmount" placeholder="Enter the amount here.">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Reimbursement Reason</label>
+                <textarea class="form-control" id="reimbursementReason" rows="3"></textarea>
+              </div>
+              <input class="btn btn-primary" onclick="createReimbursement()" id="create" type="submit" value="Create">
+            </div>
+            <!--Create reimbursement form end.-->
+            <!--Pending Reimbursement table start.-->
+            <table class="table table-dark table-striped">
+              <h2>Pending Reimbursements</h2>
+              <thead>
+                <tr>
+                  <th scope="col">Reimbursement ID</th>
+                  <th scope="col">Amount</th>
+                  <th scope="col">Reason</th>
+                  <th scope="col">Date</th>
+                </tr>
+              </thead>
+              <tbody id="pendingReimbursementTable">
+              </tbody>
+            </table>
+            <!--Pending Reimbursement table end.-->
+          </div><!--Second Column End.-->
+
+          <!--Third Column.-->
+          <div class="col">
+            <!--Reimbursement Stats Begin.-->
+            <!--Reimbursement Stats End.-->
+            <!--Old reimbursement table begin.-->
+            <table class="table table-dark table-striped">
+              <h2>Previous Reimbursements</h2>
+              <thead>
+                <tr>
+                  <th scope="col">Reimbursement ID</th>
+                  <th scope="col">Amount</th>
+                  <th scope="col">Reason</th>
+                  <th scope="col">Date</th>
+                  <th scope="col">Approved</th>
+                  <th scope="col">Manager Comment</th>
+                </tr>
+              </thead>
+              <tbody id="oldReimbursementTable">
+              </tbody>
+            </table>
+            <!--Old reimbursement table end.-->
+          </div>
         </div>
-        <div class="top">top</div>
-        <div class="topRight">top right</div>
-        <div class="createReimbursementDiv">create reimbursement</div>
-        <div class="reimbursementStatistics">reimbursement statistics</div>
-        <div class="reimbursementPending">pending reimbursements</div>
-        <div class="reimbursementPrevious">previous reimbursements</div>
-        <div class="left">left</div>
-        <div class="bottomLeft">bottom left</div>
-      </div>
+    </div>
+    <script src=employee_page.js></script>
+    <script src="js/bootstrap.bundle.js"></script>
 </body>
-<script src=employee_page.js></script>
 </html>

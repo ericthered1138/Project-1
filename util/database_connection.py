@@ -11,6 +11,7 @@ def create_connection():
             port=os.environ.get("PORT")
         )
         return conn
+    # this exception will be raised if you can't connect to your database
     except OperationalError as e:
         print(str(e))
 
