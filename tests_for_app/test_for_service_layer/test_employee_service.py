@@ -7,12 +7,12 @@ employee_service = EmployeeServiceImp(employee_dao)
 
 
 def test_service_check_employee_login():
-    """Nothing to check, yet."""
+    """Nothing to check, forwarded directly to the service layer."""
     pass
 
 
 def test_service_update_information():
-    """Nothing to check, yet."""
+    """Nothing to check, the function is not in use."""
     pass
 
 

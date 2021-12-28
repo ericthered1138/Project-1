@@ -1,5 +1,4 @@
 import datetime
-from datetime import date
 
 from entities.employee import Employee
 from service_layer.abstract_classes.employee_service_abstract import EmployeeService
@@ -16,12 +15,12 @@ class EmployeeServiceImp(EmployeeService):
         return self.employee_dao.check_employee_login(employee)
 
     def service_update_information(self, employee: Employee) -> Employee:
-        """Function is not being used"""
+        """Function is not being used. Kept for potential expansion."""
         return self.employee_dao.update_information(employee)
 
     def service_get_employee_reimbursements(self, employee: Employee) -> dict:
         """Check to make sure the employee is in the database."""
-        self.employee_dao.get_employee(employee.employee_id) # raises employee not found error if employee not found
+        self.employee_dao.get_employee(employee.employee_id)  # raises employee not found error if employee not found
         return self.employee_dao.get_employee_reimbursements(employee)
 
     def service_get_employee_dict(self, manager: Employee) -> dict:
@@ -56,7 +55,7 @@ class EmployeeServiceImp(EmployeeService):
                 if a_reimbursement["if_approved"] == 'yes':
                     total += int(a_reimbursement["amount"])
                     number_of_yes += 1
-                    if a_reimbursement["reimbursement_date"] + datetime.timedelta(30) > date.today():
+                    if a_reimbursement["reimbursement_date"] + datetime.timedelta(30) > datetime.datetime.now():
                         monthly_total += int(a_reimbursement["amount"])
                 elif a_reimbursement["if_approved"] == 'no':
                     number_of_no += 1

@@ -1,5 +1,5 @@
 from custom_exceptions.reimbursement_could_not_be_found import ReimbursementCouldNotBeFound
-from datetime import date
+from datetime import date, datetime
 
 from data_access_layer.abstract_classes.reimbursement_dao_abstract import ReimbursementDAO
 from entities.reimbursement import Reimbursement
@@ -14,7 +14,7 @@ class ReimbursementDAOImp(ReimbursementDAO):
     def max_creator(counter):
         """Static Method sets the new customer id counter by finding the highest."""
         cursor = connection.cursor()
-        sql = "select max(employee_id) as highest_customer_id from employee_table"
+        sql = "select max(reimbursement_id) as highest_reimbursement_id from reimbursement_table"
         cursor.execute(sql)
         highest = cursor.fetchone()
         if highest[0] is None:  # In case the table is empty.
@@ -42,7 +42,7 @@ class ReimbursementDAOImp(ReimbursementDAO):
         sql = f"insert into reimbursement_table (reimbursement_id, employee_id, reimbursement_date, amount, " \
               f"reason, approval, manager_comment) " \
               f"values ('{reimbursement.reimbursement_id}', '{reimbursement.employee_id}', " \
-              f"'{date.today()}', '{reimbursement.amount}', '{reimbursement.reason}', " \
+              f"'{datetime.now()}', '{reimbursement.amount}', '{reimbursement.reason}', " \
               f"'{reimbursement.if_approved}', '{reimbursement.manager_comment}');"
 
         cursor = connection.cursor()

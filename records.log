@@ -7310,3 +7310,1233 @@ custom_exceptions.employee_could_not_be_found.EmployeeCouldNotBeFound: Employee 
 [INFO] - 2021-12-22 14:19:41,608 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:19:41] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
 [INFO] - 2021-12-22 14:19:41,783 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:19:41] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
 [INFO] - 2021-12-22 14:19:41,825 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:19:41] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:11,019 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:15,018 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:15] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:15,063 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:15] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:15,292 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:15] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:15,505 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:15] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:15,545 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:15] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:15,597 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:15] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:15,726 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:15] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:15,852 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:15] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:17,362 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:17] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:17,366 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:17] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:17,580 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:17] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:17,756 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:17] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:18,046 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:18] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:18,374 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:18] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:18,419 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:18] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:18,604 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:18] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:18,826 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:18] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:18,867 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:18] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:18,909 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:18] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:19,079 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:19] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:19,213 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:19] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:20,693 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:20] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:20,697 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:20] "OPTIONS /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:20,911 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:20] "POST /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:21,082 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:21] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:21,248 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:21] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:21,724 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:21] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:21,770 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:21] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:21,960 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:21] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:22,190 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:22] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:22,232 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:22] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:22,273 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:22] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:22,399 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:22] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:22,530 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:22] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:25,103 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:25] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:25,107 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:25] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:25,314 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:25] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:25,484 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:25] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:25,653 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:25] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:26,140 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:26] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:26,183 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:26] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:26,287 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:26] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:26,374 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:26] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:26,468 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:26] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:27,341 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:27] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:27,392 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:27] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:27,590 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:27] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:27,794 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:27] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:27,835 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:27] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:27,876 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:27] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:28,002 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:28] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:28,133 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:28] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:28,539 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:28] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:28,583 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:28] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:32,765 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:32] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:32,813 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:32] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:32,948 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:32] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:34,117 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:34] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:34,160 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:34] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:34,354 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:34] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:34,562 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:34] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:34,605 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:34] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:34,647 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:34] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:34,771 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:34] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:34,900 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:34] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:36,394 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:36] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:36,482 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:36] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:36,673 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:36] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:36,888 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:36] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:36,930 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:36] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:36,977 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:36] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:37,104 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:37] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:37,234 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:37] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:40,623 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:40] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:40,668 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:40] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:40,774 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:40] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:40,901 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:40] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:40,990 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:40] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:43,842 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:43] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:44,060 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:44] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:44,146 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:44] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:48,086 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:48] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:48,139 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:48] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:48,251 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:48] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:48,337 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:48] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:48,424 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:48] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:51,269 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:51] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:51,271 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:51] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:55,491 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:55] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:55,540 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:55] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:55,654 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:55] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:55,741 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:55] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:55,827 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:55] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:58,670 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:58] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:28:58,673 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:28:58] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:29:02,895 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:29:02] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:29:02,979 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:29:02] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:29:03,085 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:29:03] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:29:03,214 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:29:03] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:29:03,260 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:29:03] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:29:03,448 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:29:03] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:29:03,487 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:29:03] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:29:03,574 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:29:03] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:29:03,663 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:29:03] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:29:03,827 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:29:03] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:29:03,868 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:29:03] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:29:04,034 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:29:04] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 14:29:04,077 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 14:29:04] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 16:24:46,127 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-22 16:25:03,294 - werkzeug - : 127.0.0.1 - - [22/Dec/2021 16:25:03] "GET //stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:40:48,929 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:41:53,334 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:41:59,450 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:41:59] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:41:59,497 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:41:59] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:41:59,719 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:41:59] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:41:59,885 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:41:59] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:41:59,926 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:41:59] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:00,050 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:00] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:00,093 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:00] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:00,261 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:00] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:01,784 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:01] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:01,788 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:01] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:02,004 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:02] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:02,177 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:02] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:02,481 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:02] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:02,800 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:02] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:02,844 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:02] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:03,034 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:03] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:03,239 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:03] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:03,280 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:03] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:03,320 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:03] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:03,483 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:03] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:03,606 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:03] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:05,110 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:05] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:05,114 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:05] "OPTIONS /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:05,331 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:05] "POST /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:05,511 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:05] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:05,677 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:05] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:06,152 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:06] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:06,195 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:06] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:06,395 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:06] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:06,599 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:06] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:06,639 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:06] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:06,680 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:06] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:06,803 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:06] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:06,938 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:06] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:09,539 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:09] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:09,543 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:09] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:09,753 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:09] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:09,921 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:09] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:10,105 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:10] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:10,580 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:10] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:10,623 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:10] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:10,760 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:10] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:10,850 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:10] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:10,934 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:10] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:11,806 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:11] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:11,850 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:11] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:12,090 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:12] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:12,297 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:12] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:12,338 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:12] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:12,380 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:12] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:12,503 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:12] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:12,627 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:12] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:12,999 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:12] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:13,042 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:13] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:17,217 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:17] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:17,264 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:17] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:17,377 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:17] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:18,548 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:18] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:18,592 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:18] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:18,787 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:18] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:18,993 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:18] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:19,035 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:19] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:19,076 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:19] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:19,198 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:19] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:19,321 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:19] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:20,817 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:20] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:20,901 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:20] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:21,095 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:21] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:21,263 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:21] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:21,305 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:21] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:21,432 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:21] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:21,475 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:21] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:21,638 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:21] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:25,069 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:25] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:25,113 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:25] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:25,228 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:25] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:25,354 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:25] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:25,439 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:25] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:28,280 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:28] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:28,493 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:28] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:28,586 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:28] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:32,532 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:32] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:32,576 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:32] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:32,691 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:32] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:32,776 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:32] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:32,863 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:32] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:35,718 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:35] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:35,721 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:35] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:39,957 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:39] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:40,003 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:40] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:40,115 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:40] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:40,204 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:40] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:40,290 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:40] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:43,145 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:43] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:43,148 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:43] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:47,365 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:47] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:47,450 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:47] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:47,561 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:47] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:47,682 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:47] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:47,730 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:47] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:47,927 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:47] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:47,953 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:47] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:48,051 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:48] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:48,136 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:48] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:48,314 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:48] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:48,357 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:48] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:48,523 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:48] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:42:48,567 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:42:48] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:10,084 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:22,118 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:22] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:22,163 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:22] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:22,353 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:22] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:22,561 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:22] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:22,603 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:22] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:22,645 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:22] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:22,773 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:22] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:22,899 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:22] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:24,458 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:24] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:24,463 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:24] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:24,671 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:24] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:24,841 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:24] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:25,128 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:25] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:25,454 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:25] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:25,497 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:25] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:25,697 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:25] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:25,900 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:25] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:25,941 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:25] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:25,991 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:25] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:26,171 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:26] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:26,297 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:26] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:27,749 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:27] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:27,753 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:27] "OPTIONS /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:27,962 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:27] "POST /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:28,164 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:28] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:28,331 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:28] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:28,792 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:28] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:28,836 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:28] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:29,047 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:29] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:29,253 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:29] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:29,294 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:29] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:29,343 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:29] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:29,469 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:29] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:29,594 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:29] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:32,160 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:32] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:32,164 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:32] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:32,373 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:32] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:32,543 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:32] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:32,712 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:32] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:33,216 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:33] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:33,259 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:33] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:33,374 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:33] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:33,462 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:33] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:33,548 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:33] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:34,414 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:34] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:34,459 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:34] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:34,655 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:34] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:34,859 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:34] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:34,901 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:34] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:34,943 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:34] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:35,077 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:35] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:35,201 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:35] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:35,604 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:35] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:35,648 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:35] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:39,826 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:39] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:39,870 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:39] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:39,979 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:39] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:41,155 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:41] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:41,201 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:41] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:41,394 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:41] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:41,598 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:41] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:41,639 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:41] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:41,681 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:41] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:41,801 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:41] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:41,924 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:41] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:43,434 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:43] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:43,517 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:43] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:43,709 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:43] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:43,918 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:43] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:43,960 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:43] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:44,001 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:44] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:44,205 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:44] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:44,247 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:44] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:47,682 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:47] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:47,729 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:47] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:47,840 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:47] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:47,966 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:47] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:48,052 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:48] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:50,896 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:50] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:51,113 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:51] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:51,198 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:51] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:55,146 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:55] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:55,192 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:55] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:55,301 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:55] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:55,386 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:55] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:55,469 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:55] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:58,336 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:58] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:48:58,340 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:48:58] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:49:02,565 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:49:02] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:49:02,608 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:49:02] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:49:02,723 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:49:02] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:49:02,809 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:49:02] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:49:02,893 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:49:02] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:49:05,756 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:49:05] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:49:05,759 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:49:05] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:49:10,004 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:49:10] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:49:10,088 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:49:10] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:49:10,199 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:49:10] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:49:10,322 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:49:10] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:49:10,366 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:49:10] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:49:10,557 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:49:10] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:49:10,584 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:49:10] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:49:10,680 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:49:10] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:49:10,761 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:49:10] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:49:10,928 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:49:10] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:49:10,971 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:49:10] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:49:11,134 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:49:11] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 08:49:11,176 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 08:49:11] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:12,378 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:16,792 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:16] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:16,834 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:16] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:17,057 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:17] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:17,271 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:17] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:17,316 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:17] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:17,360 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:17] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:17,491 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:17] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:17,622 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:17] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:19,131 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:19] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:19,136 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:19] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:19,351 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:19] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:19,523 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:19] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:19,831 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:19] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:20,182 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:20] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:20,226 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:20] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:20,425 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:20] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:20,636 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:20] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:20,678 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:20] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:20,720 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:20] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:20,890 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:20] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:21,017 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:21] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:22,500 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:22] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:22,505 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:22] "OPTIONS /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:22,717 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:22] "POST /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:22,890 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:22] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:23,062 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:23] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:23,573 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:23] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:23,615 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:23] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:23,820 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:23] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:24,030 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:24] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:24,074 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:24] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:24,115 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:24] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:24,239 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:24] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:24,361 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:24] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:26,968 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:26] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:26,972 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:26] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:27,190 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:27] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:27,360 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:27] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:27,536 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:27] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:28,029 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:28] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:28,076 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:28] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:28,188 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:28] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:28,275 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:28] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:28,359 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:28] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:29,255 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:29] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:29,301 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:29] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:29,504 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:29] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:29,719 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:29] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:29,760 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:29] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:29,802 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:29] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:29,926 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:29] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:30,054 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:30] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:30,476 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:30] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:30,520 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:30] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:34,727 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:34] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:34,781 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:34] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:34,891 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:34] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:36,088 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:36] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:36,141 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:36] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:36,345 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:36] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:36,550 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:36] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:36,592 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:36] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:36,634 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:36] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:36,766 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:36] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:36,894 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:36] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:38,390 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:38] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:38,475 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:38] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:38,661 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:38] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:38,868 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:38] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:38,908 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:38] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:38,953 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:38] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:39,077 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:39] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:39,205 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:39] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:42,647 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:42] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:42,690 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:42] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:42,805 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:42] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:42,939 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:42] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:43,026 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:43] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:45,867 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:45] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:46,084 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:46] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:46,179 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:46] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:50,117 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:50] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:50,163 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:50] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:50,285 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:50] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:50,374 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:50] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:50,463 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:50] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:53,335 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:53] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:53,339 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:53] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:57,591 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:57] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:57,636 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:57] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:57,760 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:57] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:57,845 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:57] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:50:57,930 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:50:57] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:51:00,818 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:51:00] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:51:00,821 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:51:00] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:51:05,065 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:51:05] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:51:05,157 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:51:05] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:51:05,269 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:51:05] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:51:05,407 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:51:05] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:51:05,453 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:51:05] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:51:05,669 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:51:05] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:51:05,713 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:51:05] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:51:05,833 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:51:05] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:51:05,875 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:51:05] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:51:05,917 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:51:05] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:51:06,093 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:51:06] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:51:06,267 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:51:06] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:51:06,307 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:51:06] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:52:20,195 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:52:36,505 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:52:36] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:52:36,551 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:52:36] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:52:36,877 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:52:36] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:52:36,918 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:52:36] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:52:36,959 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:52:36] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:52:53,398 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:52:53] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:52:53,620 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:52:53] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:52:53,713 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:52:53] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:53:21,085 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:53:21] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:53:21,128 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:53:21] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:53:21,526 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:53:21] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:53:21,650 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:53:21] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:53:21,692 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:53:21] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:53:21,858 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:53:21] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:53:21,943 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:53:21] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:53:21,985 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:53:21] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:54:17,403 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:54:17] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:54:17,411 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:54:17] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:54:17,627 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:54:17] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:54:17,632 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:54:17] "OPTIONS /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:54:17,846 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:54:17] "POST /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:54:18,061 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:54:18] "POST /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:54:18,409 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:54:18] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:54:18,499 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:54:18] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:54:46,126 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:54:46] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:54:46,333 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:54:46] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:54:46,425 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:54:46] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:54:56,170 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:54:56] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:54:56,216 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:54:56] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:54:56,581 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:54:56] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:54:56,671 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:54:56] "GET /stats/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:54:56,713 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:54:56] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:54:56,755 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:54:56] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:54:56,886 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:54:56] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:54:56,930 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:54:56] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:55:04,910 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:55:04] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:55:04,917 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:55:04] "OPTIONS /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:55:05,132 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:55:05] "POST /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:55:05,383 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:55:05] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:55:05,424 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:55:05] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:57:38,914 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:57:38] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:57:39,039 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:57:39] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:57:39,129 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:57:39] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:57:39,264 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:57:39] "GET /stats/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:57:39,349 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:57:39] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:57:39,388 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:57:39] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:57:49,299 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:57:49] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:57:49,527 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:57:49] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:57:49,616 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:57:49] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:57:51,902 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:57:51] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:57:52,028 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:57:52] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:57:52,072 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:57:52] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:57:52,203 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:57:52] "GET /stats/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:57:52,290 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:57:52] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:57:52,333 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:57:52] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:58:05,822 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:58:05] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:58:06,042 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:58:06] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-23 10:58:06,132 - werkzeug - : 127.0.0.1 - - [23/Dec/2021 10:58:06] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:18:19,093 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:18:52,691 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:18:52] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:18:52,747 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:18:52] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:18:53,060 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:18:53] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:18:53,105 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:18:53] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:18:53,150 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:18:53] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:19:29,377 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:19:29] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:19:29,592 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:19:29] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:19:29,685 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:19:29] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:20:50,008 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:20:55,679 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:20:55] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:20:55,722 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:20:55] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:20:55,764 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:20:55] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:20:57,239 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:20:57] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:20:57,452 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:20:57] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:20:57,546 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:20:57] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:22:34,688 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:22:34] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:22:34,731 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:22:34] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:22:35,149 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:22:35] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:22:35,193 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:22:35] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:22:35,235 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:22:35] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:22:35,546 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:22:35] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:22:35,587 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:22:35] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:22:35,629 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:22:35] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:22:54,982 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:22:54] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:22:54,989 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:22:54] "OPTIONS /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:22:55,202 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:22:55] "POST /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:22:55,208 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:22:55] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:22:55,415 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:22:55] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:22:55,629 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:22:55] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:22:55,837 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:22:55] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:22:56,134 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:22:56] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:22:56,261 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:22:56] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:22:59,889 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:22:59] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:22:59,931 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:22:59] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:23:00,014 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:23:00] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:23:00,225 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:23:00] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:23:00,281 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:23:00] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:23:00,399 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:23:00] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:25:30,189 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:25:30] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:25:30,444 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:25:30] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:25:30,536 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:25:30] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:25:38,169 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:25:38] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:25:38,394 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:25:38] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:25:38,489 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:25:38] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:25:49,710 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:25:49] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:25:49,754 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:25:49] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:25:50,154 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:25:50] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:25:50,195 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:25:50] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:25:50,237 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:25:50] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:25:50,488 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:25:50] "GET /stats/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:25:50,531 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:25:50] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:25:50,615 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:25:50] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:26:03,836 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:26:03] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:26:03,843 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:26:03] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:26:04,057 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:26:04] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:26:04,068 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:26:04] "OPTIONS /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:26:04,286 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:26:04] "POST /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:26:04,621 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:26:04] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:26:04,663 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:26:04] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:26:19,585 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:26:19] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:26:19,809 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:26:19] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:26:19,906 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:26:19] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:26:33,944 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:26:33] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:26:34,158 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:26:34] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:26:34,249 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:26:34] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:26:36,584 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:26:36] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:26:36,625 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:26:36] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:26:36,666 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:26:36] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:26:36,933 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:26:36] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:26:36,982 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:26:36] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:26:37,023 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:26:37] "GET /stats/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:26:52,856 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:26:52] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:26:52,862 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:26:52] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:26:53,090 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:26:53] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:26:53,096 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:26:53] "OPTIONS /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:26:53,327 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:26:53] "POST /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:26:53,641 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:26:53] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:26:53,681 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:26:53] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:27:01,820 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:27:01] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:27:01,873 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:27:01] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:27:01,916 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:27:01] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:27:02,123 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:27:02] "GET /stats/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:27:02,165 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:27:02] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:27:02,208 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:27:02] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:31:27,977 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:32:00,969 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:32:00] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:32:01,014 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:32:01] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:32:06,177 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:32:06] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:32:06,223 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:32:06] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:32:06,428 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:32:06] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:32:06,472 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:32:06] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:32:30,377 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:32:30] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:32:30,604 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:32:30] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:32:30,696 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:32:30] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:34:37,072 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:34:37] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:34:37,118 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:34:37] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:34:37,499 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:34:37] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:34:37,544 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:34:37] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:34:37,853 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:34:37] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:34:37,894 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:34:37] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:34:37,936 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:34:37] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:34:48,317 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:34:48] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:34:48,330 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:34:48] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:34:48,550 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:34:48] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:34:48,561 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:34:48] "OPTIONS /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:34:48,786 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:34:48] "POST /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:34:49,000 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:34:49] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:34:49,229 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:34:49] "POST /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:34:49,621 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:34:49] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:34:49,711 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:34:49] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:35:03,178 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:35:03] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:35:03,399 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:35:03] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:35:03,492 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:35:03] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:35:13,790 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:35:13] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:35:13,835 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:35:13] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:35:14,160 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:35:14] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:35:14,202 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:35:14] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:35:14,291 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:35:14] "GET /stats/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:35:14,376 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:35:14] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:35:14,460 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:35:14] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:35:18,233 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:35:18] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:35:18,240 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:35:18] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:35:18,464 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:35:18] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:35:18,765 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:35:18] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:35:18,807 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:35:18] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:35:25,142 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:35:25] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:35:25,230 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:35:25] "GET /stats/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:35:25,271 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:35:25] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:35:25,357 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:35:25] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:35:25,399 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:35:25] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:37:01,607 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:37:15,427 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:37:15] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:37:15,472 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:37:15] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:37:15,679 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:37:15] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:37:15,722 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:37:15] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:37:21,285 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:37:21] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:37:21,498 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:37:21] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:37:21,590 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:37:21] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:37:29,812 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:37:29] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:37:29,853 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:37:29] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:41:41,430 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:42:16,476 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:42:16] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:42:16,525 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:42:16] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:42:16,741 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:42:16] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:42:16,789 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:42:16] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:42:21,954 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:42:21] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:42:22,178 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:42:22] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:42:22,269 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:42:22] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-26 17:43:37,399 - werkzeug - : 127.0.0.1 - - [26/Dec/2021 17:43:37] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:51:48,885 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:19,527 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:19] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:19,576 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:19] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-27 20:52:19,817 - main - : Exception on /stats/10000001 [GET] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\main.py", line 146, in get_employee_dict
+    stats_dict_to_return = employee_service.service_create_the_stats(manager)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\service_layer\implementation_classes\employee_service_imp.py", line 59, in service_create_the_stats
+    if a_reimbursement["reimbursement_date"] + datetime.timedelta(30) > date.today():
+TypeError: can't compare datetime.datetime to datetime.date
+[INFO] - 2021-12-27 20:52:19,820 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:19] "[35m[1mGET /stats/10000001 HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:19,901 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:19] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:20,035 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:20] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:20,079 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:20] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:20,246 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:20] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:21,827 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:21] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:21,831 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:21] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:22,046 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:22] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:22,260 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:22] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:22,518 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:22] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:22,891 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:22] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:22,938 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:22] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:23,138 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:23] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-27 20:52:23,227 - main - : Exception on /stats/10000001 [GET] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\main.py", line 146, in get_employee_dict
+    stats_dict_to_return = employee_service.service_create_the_stats(manager)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\service_layer\implementation_classes\employee_service_imp.py", line 59, in service_create_the_stats
+    if a_reimbursement["reimbursement_date"] + datetime.timedelta(30) > date.today():
+TypeError: can't compare datetime.datetime to datetime.date
+[INFO] - 2021-12-27 20:52:23,228 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:23] "[35m[1mGET /stats/10000001 HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:23,357 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:23] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:23,442 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:23] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:23,619 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:23] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:25,191 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:25] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:25,195 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:25] "OPTIONS /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:25,406 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:25] "POST /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:25,592 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:25] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:25,761 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:25] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:26,232 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:26] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:26,277 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:26] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:26,470 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:26] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-27 20:52:26,560 - main - : Exception on /stats/10000001 [GET] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\main.py", line 146, in get_employee_dict
+    stats_dict_to_return = employee_service.service_create_the_stats(manager)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\service_layer\implementation_classes\employee_service_imp.py", line 59, in service_create_the_stats
+    if a_reimbursement["reimbursement_date"] + datetime.timedelta(30) > date.today():
+TypeError: can't compare datetime.datetime to datetime.date
+[INFO] - 2021-12-27 20:52:26,561 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:26] "[35m[1mGET /stats/10000001 HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:26,735 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:26] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:26,776 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:26] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:26,964 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:26] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:29,609 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:29] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:29,613 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:29] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:29,826 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:29] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:29,998 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:29] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:30,169 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:30] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:30,658 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:30] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:30,703 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:30] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:30,856 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:30] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:30,950 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:30] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:31,889 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:31] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:31,936 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:31] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:32,191 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:32] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-27 20:52:32,275 - main - : Exception on /stats/10000001 [GET] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\main.py", line 146, in get_employee_dict
+    stats_dict_to_return = employee_service.service_create_the_stats(manager)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\service_layer\implementation_classes\employee_service_imp.py", line 59, in service_create_the_stats
+    if a_reimbursement["reimbursement_date"] + datetime.timedelta(30) > date.today():
+TypeError: can't compare datetime.datetime to datetime.date
+[INFO] - 2021-12-27 20:52:32,277 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:32] "[35m[1mGET /stats/10000001 HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:32,358 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:32] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:32,483 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:32] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:32,525 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:32] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:32,698 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:32] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:33,085 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:33] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:33,130 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:33] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:37,319 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:37] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:37,364 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:37] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:37,485 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:37] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:38,646 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:38] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:38,694 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:38] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-27 20:52:38,898 - main - : Exception on /stats/10000001 [GET] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\main.py", line 146, in get_employee_dict
+    stats_dict_to_return = employee_service.service_create_the_stats(manager)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\service_layer\implementation_classes\employee_service_imp.py", line 59, in service_create_the_stats
+    if a_reimbursement["reimbursement_date"] + datetime.timedelta(30) > date.today():
+TypeError: can't compare datetime.datetime to datetime.date
+[INFO] - 2021-12-27 20:52:38,899 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:38] "[35m[1mGET /stats/10000001 HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:38,979 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:38] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:39,109 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:39] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:39,152 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:39] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:39,335 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:39] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:40,904 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:40] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:41,002 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:41] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:41,203 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:41] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-27 20:52:41,286 - main - : Exception on /stats/10000001 [GET] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\main.py", line 146, in get_employee_dict
+    stats_dict_to_return = employee_service.service_create_the_stats(manager)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\service_layer\implementation_classes\employee_service_imp.py", line 59, in service_create_the_stats
+    if a_reimbursement["reimbursement_date"] + datetime.timedelta(30) > date.today():
+TypeError: can't compare datetime.datetime to datetime.date
+[INFO] - 2021-12-27 20:52:41,288 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:41] "[35m[1mGET /stats/10000001 HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:41,409 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:41] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:41,453 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:41] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:41,631 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:41] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:45,131 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:45] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:45,176 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:45] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:45,295 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:45] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:45,388 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:45] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:48,357 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:48] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:48,624 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:48] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:48,714 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:48] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:52,608 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:52] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:52,660 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:52] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:52,777 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:52] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:52,868 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:52] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:55,789 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:55] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:52:55,792 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:52:55] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:00,019 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:00] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:00,066 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:00] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:00,180 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:00] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:00,268 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:00] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:03,238 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:03] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:03,241 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:03] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:07,467 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:07] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:07,559 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:07] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:07,668 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:07] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:07,781 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:07] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:07,827 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:07] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:08,029 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:08] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:08,056 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:08] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-27 20:53:08,116 - main - : Exception on /stats/10000001 [GET] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\main.py", line 146, in get_employee_dict
+    stats_dict_to_return = employee_service.service_create_the_stats(manager)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\service_layer\implementation_classes\employee_service_imp.py", line 59, in service_create_the_stats
+    if a_reimbursement["reimbursement_date"] + datetime.timedelta(30) > date.today():
+TypeError: can't compare datetime.datetime to datetime.date
+[INFO] - 2021-12-27 20:53:08,117 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:08] "[35m[1mGET /stats/10000001 HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:08,167 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:08] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:08,391 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:08] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:08,432 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:08] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-27 20:53:08,519 - main - : Exception on /stats/10000001 [GET] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\main.py", line 146, in get_employee_dict
+    stats_dict_to_return = employee_service.service_create_the_stats(manager)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\service_layer\implementation_classes\employee_service_imp.py", line 59, in service_create_the_stats
+    if a_reimbursement["reimbursement_date"] + datetime.timedelta(30) > date.today():
+TypeError: can't compare datetime.datetime to datetime.date
+[INFO] - 2021-12-27 20:53:08,521 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:08] "[35m[1mGET /stats/10000001 HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:08,613 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:08] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:37,290 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:37] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:37,333 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:37] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:37,679 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:37] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:37,761 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:37] "GET /stats/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:37,803 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:37] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:37,887 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:37] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:37,928 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:37] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:46,201 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:46] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:46,416 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:46] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:53:46,547 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:53:46] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:54:53,230 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:54:53] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:54:53,360 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:54:53] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:54:53,580 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:54:53] "GET /stats/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:54:53,665 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:54:53] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:54:53,707 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:54:53] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:54:58,224 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:54:58] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:54:58,230 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:54:58] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:54:58,456 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:54:58] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:54:58,782 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:54:58] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:54:58,829 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:54:58] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:55:03,541 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:55:03] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:55:03,581 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:55:03] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-27 20:55:03,832 - main - : Exception on /stats/10000000 [GET] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\main.py", line 146, in get_employee_dict
+    stats_dict_to_return = employee_service.service_create_the_stats(manager)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\service_layer\implementation_classes\employee_service_imp.py", line 59, in service_create_the_stats
+    if a_reimbursement["reimbursement_date"] + datetime.timedelta(30) > date.today():
+TypeError: can't compare datetime.datetime to datetime.date
+[INFO] - 2021-12-27 20:55:03,833 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:55:03] "[35m[1mGET /stats/10000000 HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:55:03,884 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:55:03] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:55:03,929 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:55:03] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:55:16,891 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:55:16] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:55:16,944 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:55:16] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:55:17,282 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:55:17] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:55:17,325 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:55:17] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-27 20:55:17,596 - main - : Exception on /stats/10000000 [GET] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\main.py", line 146, in get_employee_dict
+    stats_dict_to_return = employee_service.service_create_the_stats(manager)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\service_layer\implementation_classes\employee_service_imp.py", line 59, in service_create_the_stats
+    if a_reimbursement["reimbursement_date"] + datetime.timedelta(30) > date.today():
+TypeError: can't compare datetime.datetime to datetime.date
+[INFO] - 2021-12-27 20:55:17,597 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:55:17] "[35m[1mGET /stats/10000000 HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:55:17,639 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:55:17] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:55:17,684 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:55:17] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:55:27,954 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:55:27] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:55:28,167 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:55:28] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:55:28,259 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:55:28] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:55:30,581 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:55:30] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:55:30,669 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:55:30] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-27 20:55:30,847 - main - : Exception on /stats/10000000 [GET] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\main.py", line 146, in get_employee_dict
+    stats_dict_to_return = employee_service.service_create_the_stats(manager)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\service_layer\implementation_classes\employee_service_imp.py", line 59, in service_create_the_stats
+    if a_reimbursement["reimbursement_date"] + datetime.timedelta(30) > date.today():
+TypeError: can't compare datetime.datetime to datetime.date
+[INFO] - 2021-12-27 20:55:30,848 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:55:30] "[35m[1mGET /stats/10000000 HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:55:30,931 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:55:30] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:55:30,977 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:55:30] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:55:40,379 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:55:40] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:55:40,385 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:55:40] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:55:40,592 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:55:40] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:55:41,153 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:55:41] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:55:41,194 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:55:41] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:12,399 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:12] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:12,632 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:12] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:12,726 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:12] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:15,734 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:15] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:15,785 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:15] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-27 20:56:16,058 - main - : Exception on /stats/10000000 [GET] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\main.py", line 146, in get_employee_dict
+    stats_dict_to_return = employee_service.service_create_the_stats(manager)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\service_layer\implementation_classes\employee_service_imp.py", line 59, in service_create_the_stats
+    if a_reimbursement["reimbursement_date"] + datetime.timedelta(30) > date.today():
+TypeError: can't compare datetime.datetime to datetime.date
+[INFO] - 2021-12-27 20:56:16,059 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:16] "[35m[1mGET /stats/10000000 HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:16,107 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:16] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:16,151 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:16] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:19,555 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:19] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:19,561 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:19] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:19,785 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:19] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:20,363 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:20] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:20,409 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:20] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:29,745 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:29] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:29,791 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:29] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:29,977 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:29] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:30,020 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:30] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:35,403 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:35] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:35,622 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:35] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:35,720 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:35] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:52,962 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:52] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:53,014 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:53] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:53,267 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:53] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-27 20:56:53,449 - main - : Exception on /stats/10000001 [GET] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\main.py", line 146, in get_employee_dict
+    stats_dict_to_return = employee_service.service_create_the_stats(manager)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\service_layer\implementation_classes\employee_service_imp.py", line 59, in service_create_the_stats
+    if a_reimbursement["reimbursement_date"] + datetime.timedelta(30) > date.today():
+TypeError: can't compare datetime.datetime to datetime.date
+[INFO] - 2021-12-27 20:56:53,450 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:53] "[35m[1mGET /stats/10000001 HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:53,544 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:53] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:53,629 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:53] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:53,717 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:53] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:59,087 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:59] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:59,092 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:59] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:59,378 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:59] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:59,383 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:59] "OPTIONS /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:56:59,746 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:56:59] "POST /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:57:00,093 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:57:00] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:57:00,136 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:57:00] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:57:51,643 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:57:51] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:57:51,693 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:57:51] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:57:52,073 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:57:52] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:57:52,207 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:57:52] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-27 20:57:52,348 - main - : Exception on /stats/10000000 [GET] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\main.py", line 146, in get_employee_dict
+    stats_dict_to_return = employee_service.service_create_the_stats(manager)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\service_layer\implementation_classes\employee_service_imp.py", line 59, in service_create_the_stats
+    if a_reimbursement["reimbursement_date"] + datetime.timedelta(30) > date.today():
+TypeError: can't compare datetime.datetime to datetime.date
+[INFO] - 2021-12-27 20:57:52,349 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:57:52] "[35m[1mGET /stats/10000000 HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:57:52,439 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:57:52] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:57:52,482 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:57:52] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:58:17,166 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:58:19,027 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:58:19] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:58:19,112 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:58:19] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:58:19,154 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:58:19] "GET /stats/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:58:19,239 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:58:19] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:58:19,283 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:58:19] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:59:08,590 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:59:08] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:59:08,641 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:59:08] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:59:09,060 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:59:09] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:59:09,194 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:59:09] "GET /stats/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:59:09,363 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:59:09] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:59:09,543 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:59:09] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:59:09,588 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:59:09] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:59:15,911 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:59:15] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:59:16,134 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:59:16] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:59:16,229 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:59:16] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:59:19,704 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:59:19] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:59:19,839 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:59:19] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:59:19,974 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:59:19] "GET /stats/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:59:20,065 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:59:20] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:59:20,108 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:59:20] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:59:24,563 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:59:24] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:59:24,573 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:59:24] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:59:24,811 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:59:24] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:59:25,124 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:59:25] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:59:25,166 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:59:25] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:59:28,136 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:59:28] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:59:28,223 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:59:28] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-27 20:59:28,304 - main - : Exception on /stats/10000000 [GET] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\main.py", line 146, in get_employee_dict
+    stats_dict_to_return = employee_service.service_create_the_stats(manager)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\service_layer\implementation_classes\employee_service_imp.py", line 59, in service_create_the_stats
+    if a_reimbursement["reimbursement_date"] + datetime.timedelta(30) > date.today():
+TypeError: can't compare datetime.datetime to datetime.date
+[INFO] - 2021-12-27 20:59:28,307 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:59:28] "[35m[1mGET /stats/10000000 HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:59:28,427 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:59:28] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 20:59:28,513 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 20:59:28] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:00:27,291 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:00:58,875 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:00:58] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:00:58,920 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:00:58] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:00:59,310 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:00:59] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-27 21:00:59,622 - main - : Exception on /stats/10000001 [GET] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\main.py", line 146, in get_employee_dict
+    stats_dict_to_return = employee_service.service_create_the_stats(manager)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\service_layer\implementation_classes\employee_service_imp.py", line 59, in service_create_the_stats
+    if a_reimbursement["reimbursement_date"] + datetime.timedelta(30) > date.today():
+TypeError: can't compare datetime.datetime to datetime.date
+[INFO] - 2021-12-27 21:00:59,624 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:00:59] "[35m[1mGET /stats/10000001 HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:00:59,694 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:00:59] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:01:00,058 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:01:00] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:01:00,125 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:01:00] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2021-12-27 21:04:49,817 - main - : Exception on /stats/10000001 [GET] in C:\Venv\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "C:\Venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\main.py", line 146, in get_employee_dict
+    stats_dict_to_return = employee_service.service_create_the_stats(manager)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\service_layer\implementation_classes\employee_service_imp.py", line 59, in service_create_the_stats
+    if a_reimbursement["reimbursement_date"] + datetime.timedelta(30) > date.today():
+TypeError: can't compare datetime.datetime to datetime.date
+[INFO] - 2021-12-27 21:04:49,818 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:04:49] "[35m[1mGET //stats/10000001 HTTP/1.1[0m" 500 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:05:57,949 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:05:57] "GET //manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:06,121 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:08,474 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:08] "GET //stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:16,186 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:16] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:16,314 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:16] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:16,442 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:16] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:16,532 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:16] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:16,574 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:16] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:21,636 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:21] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:21,645 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:21] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:21,867 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:21] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:22,339 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:22] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:22,380 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:22] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:29,184 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:29] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:29,189 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:29] "OPTIONS /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:29,430 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:29] "POST /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:29,436 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:29] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:29,898 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:29] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:30,190 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:30] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:30,232 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:30] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:33,925 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:33] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:34,135 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:34] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:34,226 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:34] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:47,058 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:47] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:47,289 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:47] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:47,381 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:47] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:50,641 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:50] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:58,883 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:58] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:58,927 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:58] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:59,310 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:59] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:09:59,782 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:09:59] "GET /stats/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:00,337 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:00] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:00,477 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:00] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:00,524 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:00] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:06,162 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:06] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:06,168 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:06] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:06,393 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:06] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:06,399 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:06] "OPTIONS /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:06,616 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:06] "POST /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:06,919 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:06] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:06,969 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:06] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:09,850 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:09] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:09,932 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:09] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:09,974 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:09] "GET /stats/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:10,067 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:10] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:10,109 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:10] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:20,965 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:20] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:21,186 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:21] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:21,276 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:21] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:37,585 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:37] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:37,628 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:37] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:37,833 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:37] "GET /stats/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:37,920 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:37] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:37,965 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:37] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:40,284 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:40] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:40,291 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:40] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:40,764 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:40] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:41,076 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:41] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:41,124 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:41] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:43,024 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:43] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:43,147 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:43] "GET //10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:43,272 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:43] "GET /stats/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:43,360 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:43] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:10:43,401 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 21:10:43] "GET /manager/10000000 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 21:53:48,851 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 22:56:51,362 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 23:01:28,435 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225

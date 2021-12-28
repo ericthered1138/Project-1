@@ -5,14 +5,7 @@
 })()
 
 
-//Creates the employeeId variable that is used throughout the function
-async function grabEmployeeReimbursements(){
-    employeeId = window.sessionStorage.getItem("employeeId")
-    let url = "http://127.0.0.1:5000//" + employeeId
-    const the_reimbursements = await fetch(url).then(response => {return response.json()});
-    window.sessionStorage.setItem("employeeReimbursements", the_reimbursements)
-}
-grabEmployeeReimbursements()
+let employeeId = window.sessionStorage.getItem("employeeId")
 
 //The function to repopulate the pending reimbursement form.
 async function createPendingReimbursementForm(){

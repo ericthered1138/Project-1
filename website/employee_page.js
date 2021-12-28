@@ -4,16 +4,7 @@
     document.getElementById("employeeName").innerHTML = aName
 })()
 
-
-//Grabs the list of the employee's reimbursements.
-//Will need to call every time there is a change in reimbursements.
-async function grabEmployeeReimbursements(){
-    employeeId = window.sessionStorage.getItem("employeeId")
-    let url = "http://127.0.0.1:5000//" + employeeId
-    const the_reimbursements = await fetch(url).then(response => {return response.json()});
-    window.sessionStorage.setItem("employeeReimbursements", the_reimbursements)
-}
-grabEmployeeReimbursements()
+let employeeId = window.sessionStorage.getItem("employeeId")
 
 //The function to repopulate the pending reimbursement form.
 async function createPendingReimbursementForm(){
