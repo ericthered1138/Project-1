@@ -62,24 +62,6 @@ def service_check_employee_login():
         return {"manager_if": "login failed"}
 
 
-# @app.patch("/employee")
-# def update_information():
-#     """Currently not in use."""
-#     info = request.get_json()
-#     employee_username = info["employeeUsername"]
-#     employee_passcode = info["employeePasscode"]
-#     employee_employee_id = info["employeeId"]
-#     employee_manager_id = info["managerId"]
-#     employee_manager_if = info["managerIf"]
-#     employee_first_name = info["employeeFirstName"]
-#     employee_last_name = info["employeeLastName"]
-#     employee_to_return = Employee(login=employee_username, passcode=employee_passcode,
-#                                   employee_id=employee_employee_id, manager_id=employee_manager_id,
-#                                   manager_if=employee_manager_if, first_name=employee_first_name,
-#                                   last_name=employee_last_name)
-#     return employee_service.service_update_information(employee_to_return)
-
-
 @app.get("/<employeeId>")
 def get_employee_reimbursements(employeeId):
     """Returns a dictionary of all an employee's reimbursements."""
