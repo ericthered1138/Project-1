@@ -16,7 +16,7 @@ class EmployeeDaoImp(EmployeeDAO):
     def max_creator(counter):
         """Static Method sets the new customer id counter by finding the highest."""
         cursor = connection.cursor()
-        sql = "select max(employee_id) as highest_customer_id from employee_table"
+        sql = "select max(employee_id) as highest_employee_id from employee_table"
         cursor.execute(sql)
         highest = cursor.fetchone()
         if highest[0] is None:  # In case the table is empty.
@@ -29,6 +29,7 @@ class EmployeeDaoImp(EmployeeDAO):
         cursor.execute(f"select * from employee_table where employee_id = {employee_id}")
         employee_record = cursor.fetchone()
 
+        print(employee_record)
         # Check to see if there is a record otherwise raise an exception.
         if employee_record:
             current_employee = Employee(*employee_record)

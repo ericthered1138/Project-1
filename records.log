@@ -8540,3 +8540,4 @@ TypeError: can't compare datetime.datetime to datetime.date
 [INFO] - 2021-12-27 21:53:48,851 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
 [INFO] - 2021-12-27 22:56:51,362 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
 [INFO] - 2021-12-27 23:01:28,435 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2021-12-27 23:34:12,693 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225

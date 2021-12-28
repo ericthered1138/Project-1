@@ -11,11 +11,14 @@ class EmployeeServiceImp(EmployeeService):
         self.employee_dao: EmployeeDaoImp = employee_dao
 
     def service_check_employee_login(self, employee: Employee) -> Employee:
-        """No checks necessary the data access layer is the function."""
+        """Converts all input to a string before sending to the database layer."""
+        employee.login = str(employee.login)
+        employee.passcode = str(employee.passcode)
         return self.employee_dao.check_employee_login(employee)
 
     def service_update_information(self, employee: Employee) -> Employee:
         """Function is not being used. Kept for potential expansion."""
+        self.employee_dao.get_employee(employee.employee_id)  # raises employee not found error if employee not found
         return self.employee_dao.update_information(employee)
 
     def service_get_employee_reimbursements(self, employee: Employee) -> dict:
@@ -34,7 +37,7 @@ class EmployeeServiceImp(EmployeeService):
         return self.employee_dao.get_all_manager_reimbursements(manager)
 
     def service_create_the_stats(self, manager: Employee) -> dict:
-        """Takes in information from the data access layer and creates the statistics to send to the frontend."""
+        """Takes in information from the data access layer and creates the statistics to send to main."""
         # get the employees dict
         employees_dict = self.employee_dao.get_employee_dict(manager)
 
