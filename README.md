@@ -1,5 +1,3 @@
-Project1
-
 Expense Reimbursement System
 Project Description
 
