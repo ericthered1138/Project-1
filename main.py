@@ -6,34 +6,23 @@ from custom_exceptions.login_failed import LoginFailed
 from entities.employee import Employee
 from entities.reimbursement import Reimbursement
 
-from util.database_generator_for_testing import depopulate_tables_for_test, populate_tables_for_test
 from data_access_layer.implementation_classes.employee_dao_imp import EmployeeDaoImp
 from service_layer.implementation_classes.employee_service_imp import EmployeeServiceImp
 from data_access_layer.implementation_classes.reimbursement_dao_imp import ReimbursementDAOImp
 from service_layer.implementation_classes.reimbursement_service_imp import ReimbursementServiceImp
 
 import logging
+
 logging.basicConfig(filename="records.log", level=logging.DEBUG,
                     format="[%(levelname)s] - %(asctime)s - %(name)s - : %(message)s in %(pathname)s:%(lineno)d")
+
 app: Flask = Flask(__name__)
 CORS(app)
-
-depopulate_tables_for_test()  # Eliminates possible test data in the database, so that it doesn't interfere.
-populate_tables_for_test()
 
 employee_dao = EmployeeDaoImp()
 employee_service = EmployeeServiceImp(employee_dao)
 reimbursement_dao = ReimbursementDAOImp()
-reimbursement_service = ReimbursementServiceImp(reimbursement_dao, employee_dao)
-
-
-def is_float(number):
-    """A method to check whether the input is a float."""
-    try:
-        float(number)
-        return True
-    except ValueError:
-        return False
+reimbursement_service = ReimbursementServiceImp(reimbursement_dao)
 
 
 # test to see if on
@@ -62,19 +51,19 @@ def service_check_employee_login():
         return {"manager_if": "login failed"}
 
 
-@app.get("/<employeeId>")
-def get_employee_reimbursements(employeeId):
+@app.get("/<manager_id>")
+def get_employee_reimbursements(manager_id):
     """Returns a dictionary of all an employee's reimbursements."""
-    employee_to_return = Employee(employee_id=employeeId)
+    employee_to_return = Employee(employee_id=manager_id)
     reimbursements_as_dict = employee_service.service_get_employee_reimbursements(employee_to_return)
     reimbursements_as_json = jsonify(reimbursements_as_dict)
     return reimbursements_as_json
 
 
-@app.get("/manager/<managerId>")
-def get_manager_reimbursements(managerId):
+@app.get("/manager/<manager_id>")
+def get_manager_reimbursements(manager_id):
     """Returns a dictionary of all a manager's reimbursements."""
-    employee_to_return = Employee(employee_id=managerId)
+    employee_to_return = Employee(employee_id=manager_id)
     reimbursements_as_dict = employee_service.service_get_all_manager_reimbursements(employee_to_return)
     reimbursements_as_json = jsonify(reimbursements_as_dict)
     return reimbursements_as_json
@@ -82,18 +71,14 @@ def get_manager_reimbursements(managerId):
 
 @app.post("/reimbursement")
 def service_create_reimbursement():
-
     try:
         info = request.get_json()
-        if is_float(info["amount"]) and float(info["amount"]) > 0:
-            reimbursement_to_return = Reimbursement(
-                employee_id=info["employeeId"], amount=info["amount"], reason=info["reason"])
-            new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
-            reimbursement_as_dict = new_reimbursement.make_dictionary()
-            reimbursement_as_json = jsonify(reimbursement_as_dict)
-            return reimbursement_as_json
-        else:
-            return {"if_approved": "The amount must be numeric and positive."}
+        reimbursement_to_return = Reimbursement(
+            employee_id=info["employeeId"], amount=info["amount"], reason=info["reason"])
+        new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+        reimbursement_as_dict = new_reimbursement.make_dictionary()
+        reimbursement_as_json = jsonify(reimbursement_as_dict)
+        return reimbursement_as_json
     except EmployeeCouldNotBeFound:
         return "The Employee could not be found."
 
@@ -131,4 +116,3 @@ def get_employee_dict(manager_id):
 
 
 app.run()
-

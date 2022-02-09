@@ -9,27 +9,13 @@ from data_access_layer.abstract_classes.employee_dao_abstract import EmployeeDAO
 
 class EmployeeDaoImp(EmployeeDAO):
 
-    def __init__(self, employee_id_counter=1000):
-        self.customer_id_counter = self.max_creator(employee_id_counter) + 1
-
-    @staticmethod
-    def max_creator(counter):
-        """Static Method sets the new customer id counter by finding the highest."""
-        cursor = connection.cursor()
-        sql = "select max(employee_id) as highest_employee_id from employee_table"
-        cursor.execute(sql)
-        highest = cursor.fetchone()
-        if highest[0] is None:  # In case the table is empty.
-            return counter
-        return max(highest[0], counter)
-
     def get_employee(self, employee_id: int) -> Employee:
         """Gets the employee record by employee_id."""
         cursor = connection.cursor()
-        cursor.execute(f"select * from employee_table where employee_id = {employee_id}")
+        sql = "select * from employee_table where employee_id = %(employee_id)s;"
+        cursor.execute(sql, {"employee_id": employee_id})
         employee_record = cursor.fetchone()
 
-        print(employee_record)
         # Check to see if there is a record otherwise raise an exception.
         if employee_record:
             current_employee = Employee(*employee_record)
@@ -40,8 +26,8 @@ class EmployeeDaoImp(EmployeeDAO):
     def check_employee_login(self, employee: Employee) -> Employee:
         """Checks if the entered employee information is correct."""
         cursor = connection.cursor()
-        sql = f"select * from employee_table where login = '{employee.login}' and passcode = '{employee.passcode}'"
-        cursor.execute(sql)
+        sql = "select * from employee_table where login = %(login)s and passcode = %(passcode)s;"
+        cursor.execute(sql, {"login": employee.login, "passcode": employee.passcode})
         employee_record = cursor.fetchone()
 
         # Check to see if there is a record otherwise raise an exception.
@@ -53,24 +39,37 @@ class EmployeeDaoImp(EmployeeDAO):
 
     def update_information(self, employee: Employee) -> Employee:
         """Updates employee information in the server."""
+
+        # Check if the employee exists by using the get method
+        self.get_employee(employee.employee_id)
+
         # Update in the database.
-        sql = f"update employee_table set first_name = '{employee.first_name}', " \
-              f"last_name = '{employee.last_name}', login = '{employee.login}', passcode = '{employee.passcode}' " \
-              f"where employee_id = '{employee.employee_id}'"
+        sql = "update employee_table set first_name = %(first_name)s, " \
+              "last_name = %(last_name)s, login = %(login)s, passcode = %(passcode)s " \
+              "where employee_id = %(employee_id)s;"
         cursor = connection.cursor()
-        cursor.execute(sql)
+        cursor.execute(sql, {
+            "first_name": employee.first_name,
+            "last_name": employee.last_name,
+            "login": employee.login,
+            "passcode": employee.passcode,
+            "employee_id": employee.employee_id
+        })
         connection.commit()
 
         # Get the record back from the database.
-        cursor.execute(f"select * from employee_table where employee_id = {employee.employee_id}")
-        employee_record = cursor.fetchone()
-        current_employee = Employee(*employee_record)
-        return current_employee
+        return self.get_employee(employee.employee_id)
 
     def get_employee_reimbursements(self, employee: Employee) -> dict:
         """For all employees, grabs the employee's reimbursements."""
+
+        # Check if the employee exists by using the get method
+        self.get_employee(employee.employee_id)
+
+        # Get the reimbursements.
+        sql = "select * from reimbursement_table where employee_id = %(employee_id)s"
         cursor = connection.cursor()
-        cursor.execute(f"select * from reimbursement_table where employee_id = {employee.employee_id}")
+        cursor.execute(sql, {"employee_id": employee.employee_id})
         reimbursement_record = cursor.fetchall()
 
         # Create a reimbursement dict and add all the reimbursements as dictionaries
@@ -83,22 +82,35 @@ class EmployeeDaoImp(EmployeeDAO):
 
     def get_employee_dict(self, manager: Employee) -> dict:
         """For the manager, grabs the employee dictionary for the manager."""
+
+        # Check if the employee exists by using the get method
+        self.get_employee(manager.employee_id)
+
+        # Get a list of employees
         cursor = connection.cursor()
-        sql = f"select * from employee_table where manager_id = {manager.employee_id}"
-        cursor.execute(sql)
+        sql = "select * from employee_table as et inner join manager_junction_table as mjt " \
+              "on et.employee_id = mjt.employee_id where mjt.manager_id = %(employee_id)s;"
+        cursor.execute(sql, {"employee_id": manager.employee_id})
         employee_records = cursor.fetchall()
 
+        # Put them into a dictionary using the id as a key
         employee_dict = {}
         for employee in employee_records:
-            employee_id, full_name = employee[0], employee[3] + " " + employee[4]
+            employee_id, full_name = employee[0], employee[2] + " " + employee[3]
             employee_dict.update({employee_id: full_name})
         return employee_dict
 
     def get_all_manager_reimbursements(self, manager: Employee) -> dict:
         """For the manager, grabs all reimbursements for employees of the manager."""
+
+        # Check if the employee exists by using the get method
+        self.get_employee(manager.employee_id)
+
+        # Get a list of employees
         cursor = connection.cursor()
-        sql = f"select * from employee_table where manager_id = {manager.employee_id}"
-        cursor.execute(sql)
+        sql = f"select * from employee_table as et inner join manager_junction_table as mjt " \
+              f"on et.employee_id = mjt.employee_id where mjt.manager_id = %(employee_id)s;"
+        cursor.execute(sql, {"employee_id": manager.employee_id})
         employee_records = cursor.fetchall()
 
         employee_list = []
@@ -110,7 +122,8 @@ class EmployeeDaoImp(EmployeeDAO):
         reimbursement_dict = {}
         for employee in employee_list:
             cursor = connection.cursor()
-            cursor.execute(f"select * from reimbursement_table where employee_id = {employee}")
+            sql = "select * from reimbursement_table where employee_id = %(employee_id)s"
+            cursor.execute(sql, {"employee_id": employee})
             reimbursement_record = cursor.fetchall()
 
             # Add all the reimbursements as dictionaries.

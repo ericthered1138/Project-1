@@ -1,18 +1,6 @@
 from util.database_connection import connection
 
 
-def create_tables():
-    """Function to create tables in the database."""
-    sql = "create table employee_table(employee_id int, manager_id int, manager varchar(3), first_name varchar(20), " \
-          "last_name varchar(20), login varchar(40), passcode varchar(20), primary key (employee_id));" \
-          "create table reimbursement_table(reimbursement_id int, employee_id int, reimbursement_date TIMESTAMP, " \
-          "amount decimal, reason varchar(280), approval varchar(20), manager_comment varchar(280)," \
-          "primary key (reimbursement_id), foreign key (employee_id) references employee_table(employee_id));"
-    cursor = connection.cursor()
-    cursor.execute(sql)
-    connection.commit()
-
-
 def populate_tables_for_test():
     """Function to populate tables with test data in the database for testing."""
     sql = "insert into employee_table (employee_id, manager, first_name, last_name, login, passcode) " \
@@ -57,7 +45,5 @@ def depopulate_tables_for_test():
     cursor.execute(sql)
     connection.commit()
 
-
-# create_tables()
 # depopulate_tables_for_test()
-populate_tables_for_test()
+# populate_tables_for_test()

@@ -8,7 +8,15 @@ from data_access_layer.implementation_classes.employee_dao_imp import EmployeeDa
 class ReimbursementServiceImp(ReimbursementService):
     def __init__(self, reimbursement_dao, employee_dao):
         self.reimbursement_dao: ReimbursementDAOImp = reimbursement_dao
-        self.employee_dao: EmployeeDaoImp = employee_dao
+
+    @staticmethod
+    def is_float(number):
+        """A method to check whether the input is a float."""
+        try:
+            float(number)
+            return True
+        except ValueError:
+            return False
 
     def service_create_reimbursement(self, reimbursement: Reimbursement) -> Reimbursement:
         """Checking to make sure that the employee is in the database before forwarding to the data access layer."""

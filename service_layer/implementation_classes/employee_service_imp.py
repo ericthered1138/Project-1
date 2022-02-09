@@ -10,6 +10,15 @@ class EmployeeServiceImp(EmployeeService):
     def __init__(self, employee_dao):
         self.employee_dao: EmployeeDaoImp = employee_dao
 
+    @staticmethod
+    def is_float(number):
+        """A method to check whether the input is a float."""
+        try:
+            float(number)
+            return True
+        except ValueError:
+            return False
+
     def service_check_employee_login(self, employee: Employee) -> Employee:
         """Converts all input to a string before sending to the database layer."""
         employee.login = str(employee.login)
@@ -63,7 +72,7 @@ class EmployeeServiceImp(EmployeeService):
                 elif a_reimbursement["if_approved"] == 'no':
                     number_of_no += 1
 
-            average_reimbursement_cost = total//number_of_yes if number_of_yes != 0 else 0
+            average_reimbursement_cost = total // number_of_yes if number_of_yes != 0 else 0
             acceptance_rate = round((number_of_yes / (number_of_yes + number_of_no)) * 100) if total != 0 else 0
             employees_by_name_dict.update({str(an_employee): {
                 "number_of_reimbursements": number_of_yes,
