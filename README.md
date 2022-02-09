@@ -1,5 +1,3 @@
-Project1
-
 Expense Reimbursement System
 Project Description
 
@@ -27,8 +25,10 @@ Features
     Managers are able to leave comments on the reimbursement stating a reason why they have been approved/denied.
 
 To-do list:
-
-    There are massive security holes, although that was not a part of the project requirements.
+    
+    A manager who manages themself can approve their own reimbursement.
+    I would like to work on the frontend.
+    There are massive security holes that would need to be filled.
 
 Getting Started
 
