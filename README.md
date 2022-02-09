@@ -1,6 +1,10 @@
-Expense Reimbursement System This application implements an expense reimbursement system for a company. Employees are
-able to create reimbursement requests and view their current reimbursements. Managers are able to view past/pending
-reimbursements, as well as approve/deny reimbursements while leaving a message for the employee. Technologies Used
+Expense Reimbursement System
+
+This application implements an expense reimbursement system for a company. Employees are able to create reimbursement
+requests and view their current reimbursements. Managers are able to view past/pending reimbursements, as well as
+approve/deny reimbursements while leaving a message for the employee.
+
+Technologies Used
 
 IDEs
 
