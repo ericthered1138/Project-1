@@ -30,9 +30,7 @@ Features
 
 To-do list:
 
-    A manager who manages themself can approve their own reimbursement.
-    I would like to work on the frontend.
-    There are massive security holes that would need to be filled.
+    More work on the frontend.
 
 Getting Started
 
