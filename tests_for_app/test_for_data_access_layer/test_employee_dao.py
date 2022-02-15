@@ -92,6 +92,7 @@ def test_check_employee_login_failure_bad_login():
         employee_dao.check_employee_login(test_employee)
         assert False
     except LoginFailed as e:
+        print(e)
         assert str(e) == 'Login entered incorrectly'
 
 
