@@ -53,7 +53,7 @@ def test_service_deny_reimbursement_success():
     test_reimbursement = Reimbursement(12345)
     boolean = reimbursement_service.service_deny_reimbursement(test_reimbursement)
     assert boolean is True
-    
+
 
 def test_service_deny_reimbursement_failure():
     """Check to see if the reimbursement is in the database, then forward to the data access layer."""

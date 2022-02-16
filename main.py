@@ -101,7 +101,7 @@ def service_disapprove_reimbursement():
     reimbursement_id = int(reimbursement_info["reimbursementId"])
     reimbursement_comment = reimbursement_info["managerComment"]
     reimbursement_to_return = Reimbursement(reimbursement_id=reimbursement_id, manager_comment=reimbursement_comment)
-    new_reimbursement = reimbursement_service.service_disapprove_reimbursement(reimbursement_to_return)
+    new_reimbursement = reimbursement_service.service_deny_reimbursement(reimbursement_to_return)
     reimbursement_as_dict = new_reimbursement.make_dictionary()
     reimbursement_as_json = jsonify(reimbursement_as_dict)
     return reimbursement_as_json
