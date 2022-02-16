@@ -30,7 +30,10 @@ def populate_tables_for_test():
           "insert into reimbursement_table (reimbursement_id, employee_id, reimbursement_date, amount, reason, approval, manager_comment) " \
           "values ('345673', '10000002', '2021-10-10', '10', 'testing123', 'yes', 'no comment');" \
           "insert into reimbursement_table (reimbursement_id, employee_id, reimbursement_date, amount, reason, approval, manager_comment) " \
-          "values ('345674', '10000002', '2021-10-17', '10', 'testing123', 'yes', 'no comment');"
+          "values ('345674', '10000002', '2021-10-17', '10', 'testing123', 'yes', 'no comment');" \
+          "insert into manager_junction_table values (10000003, 10000001);" \
+          "insert into manager_junction_table values (10000002, 10000001);" \
+          "insert into manager_junction_table values (10000001, 10000000);"
 
     cursor = connection.cursor()
     cursor.execute(sql)

@@ -13,6 +13,7 @@ def test_service_create_reimbursement_success():
     reimbursement_dao.create_reimbursement = MagicMock(return_value=True)
     test_reimbursement = Reimbursement(employee_id=12345, amount=42.00, reason="some Reason")
     boolean = reimbursement_service.service_create_reimbursement(test_reimbursement)
+    print(boolean)
     assert boolean is True
 
 
@@ -32,6 +33,7 @@ def test_service_approve_reimbursement_success():
     reimbursement_dao.approve_reimbursement = MagicMock(return_value=True)
     test_reimbursement = Reimbursement(12345)
     boolean = reimbursement_service.service_approve_reimbursement(test_reimbursement)
+    print(boolean)
     assert boolean is True
 
 
@@ -52,6 +54,7 @@ def test_service_deny_reimbursement_success():
     reimbursement_dao.deny_reimbursement = MagicMock(return_value=True)
     test_reimbursement = Reimbursement(12345)
     boolean = reimbursement_service.service_deny_reimbursement(test_reimbursement)
+    print(boolean)
     assert boolean is True
 
 
