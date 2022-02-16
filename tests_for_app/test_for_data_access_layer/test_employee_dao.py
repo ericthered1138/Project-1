@@ -116,7 +116,7 @@ def test_update_information_success(create_fake_employee):
 def test_get_employee_reimbursements_success(create_fake_reimbursement):
     test_employee = Employee(employee_id=10000001)
     returned_reimbursements = employee_dao.get_employee_reimbursements(test_employee)
-    print(returned_reimbursements)
+    print(returned_reimbursements[12345])
     assert str(returned_reimbursements) == r"{12345: {'reimbursement_id': 12345, 'employee_id': 10000001, " \
                                            r"'reimbursement_date': datetime.datetime(2021, 12, 10, 0, 0), " \
                                            r"'amount': Decimal('38.23'), 'reason': 'to get on the cloud', " \
