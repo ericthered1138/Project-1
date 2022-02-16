@@ -5,7 +5,7 @@ from behave import Given as given, When as when, Then as then
 
 @given(u'the employee is on the login page')
 def get_login_page(context):
-    url = r"D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\website\login_page.html"
+    url = r"http://127.0.0.1:5500/website/login_page.html"
     context.driver.get(url)
 
 
@@ -34,7 +34,7 @@ def check_page_url(context):
 # for the manager
 @given(u'the manager is on the login page')
 def manager_get_login_page(context):
-    url = r"D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\First Build\website\login_page.html"
+    url = r"http://127.0.0.1:5500/website/login_page.html"
     context.driver.get(url)
 
 
@@ -70,5 +70,3 @@ def error_pop_check(context):
     time.sleep(1)
     assert context.driver.switch_to.alert.text == "Username or password entered incorrectly."
     context.driver.switch_to.alert.accept()
-
-
