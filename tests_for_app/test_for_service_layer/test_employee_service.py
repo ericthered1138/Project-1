@@ -1,9 +1,7 @@
 import datetime
 from decimal import Decimal
 
-from custom_exceptions.employee_could_not_be_found import EmployeeCouldNotBeFound
 from custom_exceptions.employee_information_invalid import EmployeeInformationInvalid
-from custom_exceptions.login_failed import LoginFailed
 from custom_exceptions.the_employee_id_is_not_numeric import TheEmployeeIDIsNotNumeric
 from entities.employee import Employee
 from service_layer.implementation_classes.employee_service_imp import EmployeeServiceImp

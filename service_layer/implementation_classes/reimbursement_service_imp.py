@@ -1,3 +1,5 @@
+from custom_exceptions.invalid_reimbursement import InvalidReimbursement
+from custom_exceptions.invalid_reimbursement_id import InvalidReimbursementID
 from custom_exceptions.that_reimbursement_is_not_pending import ThatReimbursementIsNotPending
 from entities.reimbursement import Reimbursement
 from service_layer.abstract_classes.reimbursement_service_abstract import ReimbursementService
@@ -6,7 +8,7 @@ from data_access_layer.implementation_classes.employee_dao_imp import EmployeeDa
 
 
 class ReimbursementServiceImp(ReimbursementService):
-    def __init__(self, reimbursement_dao, employee_dao):
+    def __init__(self, reimbursement_dao):
         self.reimbursement_dao: ReimbursementDAOImp = reimbursement_dao
 
     @staticmethod
@@ -19,21 +21,22 @@ class ReimbursementServiceImp(ReimbursementService):
             return False
 
     def service_create_reimbursement(self, reimbursement: Reimbursement) -> Reimbursement:
-        """Checking to make sure that the employee is in the database before forwarding to the data access layer."""
-        employee_id = reimbursement.employee_id
-        self.employee_dao.get_employee(employee_id)
+        """Check to make sure the reimbursement is valid"""
+        if not (str(reimbursement.employee_id).isnumeric() and
+                self.is_float(reimbursement.amount) and
+                reimbursement.amount <= 20000 and
+                len(reimbursement.reason) <= 280):
+            raise InvalidReimbursement('That reimbursement is not valid.')
         return self.reimbursement_dao.create_reimbursement(reimbursement)
 
     def service_approve_reimbursement(self, reimbursement: Reimbursement) -> Reimbursement:
-        """Check to see if the reimbursement is in the database and pending, then forward to the data access layer."""
-        a_reimbursement = self.reimbursement_dao.get_reimbursement(reimbursement)
-        if a_reimbursement.if_approved == 'pending':
-            return self.reimbursement_dao.approve_reimbursement(reimbursement)
-        raise ThatReimbursementIsNotPending('That reimbursement is not pending.')
+        """Check to make sure the reimbursement id is valid."""
+        if not (str(reimbursement.reimbursement_id).isnumeric()):
+            raise InvalidReimbursementID('That reimbursement id is not valid.')
+        return self.reimbursement_dao.approve_reimbursement(reimbursement)
 
-    def service_disapprove_reimbursement(self, reimbursement: Reimbursement) -> Reimbursement:
-        """Check to see if the reimbursement is in the database and pending, then forward to the data access layer."""
-        a_reimbursement = self.reimbursement_dao.get_reimbursement(reimbursement)
-        if a_reimbursement.if_approved == 'pending':
-            return self.reimbursement_dao.disapprove_reimbursement(reimbursement)
-        raise ThatReimbursementIsNotPending('That reimbursement is not pending.')
+    def service_deny_reimbursement(self, reimbursement: Reimbursement) -> Reimbursement:
+        """Check to make sure the reimbursement id is valid."""
+        if not (str(reimbursement.reimbursement_id).isnumeric()):
+            raise InvalidReimbursementID('That reimbursement id is not valid.')
+        return self.reimbursement_dao.deny_reimbursement(reimbursement)

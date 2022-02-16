@@ -15,6 +15,6 @@ class ReimbursementService(ABC):
         pass
 
     @abstractmethod
-    def service_disapprove_reimbursement(self, reimbursement: Reimbursement) -> bool:
+    def service_deny_reimbursement(self, reimbursement: Reimbursement) -> bool:
         """For managers, to disapprove a reimbursement."""
         pass

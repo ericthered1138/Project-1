@@ -15,7 +15,7 @@ reimbursement_date timestamp not null default clock_timestamp(),
 amount decimal not null,
 reason varchar(280) not null,
 approval varchar(20) not null default('pending'),
-manager_comment varchar(280) not null
+manager_comment varchar(280)
 );
 
 
