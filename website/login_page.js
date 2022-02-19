@@ -16,9 +16,9 @@ async function loginAttempt(){
     window.sessionStorage.setItem("employeeId", the_request["employee_id"]);
     
     //3 possibilities to check for before logging in
-    if (the_request["manager_if"] === "no"){//go to the employee page
+    if (the_request["manager_if"] === false){//go to the employee page
         window.location.href = "employee_page.html";
-    }else if(the_request["manager_if"] === "yes"){//go to the manager page
+    }else if(the_request["manager_if"] === true){//go to the manager page
         window.location.href = "manager_page.html";
     }else{//pop up an error message for the attempt
         alert("Username or password entered incorrectly.");

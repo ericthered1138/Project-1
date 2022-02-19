@@ -8642,3 +8642,922 @@ TypeError: can't compare datetime.datetime to datetime.date
 [INFO] - 2021-12-27 23:50:33,495 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 23:50:33] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
 [INFO] - 2021-12-27 23:50:33,660 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 23:50:33] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
 [INFO] - 2021-12-27 23:50:33,702 - werkzeug - : 127.0.0.1 - - [27/Dec/2021 23:50:33] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:42:41,745 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:43:24,155 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:17,117 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:17] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:17,163 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:17] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:17,406 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:17] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:17,611 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:17] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:17,653 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:17] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:17,697 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:17] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:17,886 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:17] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:19,395 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:19] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:19,399 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:19] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:19,607 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:19] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:20,489 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:20] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:20,775 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:20] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:20,983 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:20] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:21,027 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:21] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:21,231 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:21] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:21,440 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:21] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:21,481 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:21] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:21,523 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:21] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:21,693 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:21] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:23,249 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:23] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:23,254 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:23] "OPTIONS /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:23,466 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:23] "POST /reimbursement/disapprove HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:23,647 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:23] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:23,813 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:23] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:24,251 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:24] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:24,300 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:24] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:24,489 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:24] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:24,622 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:24] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:24,748 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:24] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:24,831 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:24] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:24,997 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:24] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:27,593 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:27] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:27,598 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:27] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:27,810 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:27] "POST /reimbursement/approve HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:27,982 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:27] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:28,161 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:28] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:28,588 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:28] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:28,633 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:28] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:28,951 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:28] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:29,035 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:29] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:30,196 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:30] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:30,240 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:30] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:30,671 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:30] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:30,882 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:30] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:30,926 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:30] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:30,970 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:30] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:31,099 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:31] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:31,230 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:31] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:31,351 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:31] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:31,395 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:31] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:35,535 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:35] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:35,583 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:35] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:35,689 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:35] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:36,824 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:36] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:36,879 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:36] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:37,075 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:37] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:37,289 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:37] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:37,331 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:37] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:37,372 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:37] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:37,787 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:37] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:39,031 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:39] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:39,118 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:39] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:39,318 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:39] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:39,543 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:39] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:39,587 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:39] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:39,629 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:39] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:39,797 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:39] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:43,229 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:43] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:43,276 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:43] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:43,385 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:43] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:43,477 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:43] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:46,419 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:46] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:46,682 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:46] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:46,770 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:46] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:50,634 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:50] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:50,679 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:50] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:50,801 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:50] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:50,886 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:50] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:53,775 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:53] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:53,777 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:53] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:57,975 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:57] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:58,020 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:58] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:58,129 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:58] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:46:58,215 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:46:58] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:47:01,144 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:47:01] "OPTIONS /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:47:01,147 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:47:01] "POST /reimbursement HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:47:05,324 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:47:05] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:47:05,412 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:47:05] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:47:05,515 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:47:05] "GET //10000002 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:47:05,599 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:47:05] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:47:05,643 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:47:05] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:47:05,817 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:47:05] "OPTIONS //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:47:05,842 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:47:05] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:47:05,968 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:47:05] "POST //login HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:47:06,050 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:47:06] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:47:06,214 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:47:06] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:47:06,256 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:47:06] "GET //10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:47:06,427 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:47:06] "GET /stats/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 19:47:06,471 - werkzeug - : 127.0.0.1 - - [08/Feb/2022 19:47:06] "GET /manager/10000001 HTTP/1.1" 200 - in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-08 20:27:21,356 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in C:\Venv\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 10:58:12,066 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 14:50:55,519 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 14:51:25,734 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 14:51:25] "GET / HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 14:53:35,604 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 14:56:01,829 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 14:56:14,648 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 14:56:14] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 14:56:20,027 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 14:56:20] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 14:56:26,063 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 14:56:26] "GET //manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 14:56:32,739 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 14:56:32] "POST //reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 14:56:35,757 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 14:56:35] "POST //reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 14:56:38,493 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 14:56:38] "POST //reimbursement/approve HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 14:57:01,406 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 14:57:01] "POST //reimbursement/disapprove HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 14:57:06,993 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 14:57:06] "GET //stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 14:57:44,791 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 14:58:07,821 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 14:58:07] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 14:58:07,911 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 14:58:07] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 14:58:38,175 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 14:58:38] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 14:58:38,226 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 14:58:38] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 14:59:04,962 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 14:59:04] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 14:59:05,007 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 14:59:05] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:01:04,994 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:01:04] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:01:05,040 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:01:05] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:01:05,343 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:01:05] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:01:05,394 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:01:05] "GET /manager/10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:01:05,435 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:01:05] "GET /stats/10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:01:05,615 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:01:05] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:01:05,677 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:01:05] "GET /manager/10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:01:10,743 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:01:10] "GET /manager/10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:01:10,842 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:01:10] "GET /manager/10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:01:10,970 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:01:10] "GET /manager/10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:01:26,840 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:01:26] "OPTIONS /reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2022-02-16 15:01:26,842 - main - : Exception on /reimbursement [POST] in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\main.py", line 97, in service_create_reimbursement
+    new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\service_layer\implementation_classes\reimbursement_service_imp.py", line 27, in service_create_reimbursement
+    reimbursement.amount <= 20000 and
+TypeError: '<=' not supported between instances of 'str' and 'int'
+[INFO] - 2022-02-16 15:01:26,868 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:01:26] "[35m[1mPOST /reimbursement HTTP/1.1[0m" 500 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:01:29,305 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:01:29] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:01:29,345 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:01:29] "GET /manager/10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:01:29,387 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:01:29] "GET /stats/10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:01:29,522 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:01:29] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:01:29,566 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:01:29] "GET /manager/10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:01:59,320 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:01:59] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:01:59,366 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:01:59] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:01:59,640 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:01:59] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:01:59,722 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:01:59] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:02:08,358 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:02:08] "OPTIONS /reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2022-02-16 15:02:08,361 - main - : Exception on /reimbursement [POST] in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\main.py", line 97, in service_create_reimbursement
+    new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\service_layer\implementation_classes\reimbursement_service_imp.py", line 27, in service_create_reimbursement
+    reimbursement.amount <= 20000 and
+TypeError: '<=' not supported between instances of 'str' and 'int'
+[INFO] - 2022-02-16 15:02:08,362 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:02:08] "[35m[1mPOST /reimbursement HTTP/1.1[0m" 500 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:22:24,918 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:22:43,639 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:22:43] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:22:43,727 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:22:43] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:22:44,972 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:22:44] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:22:45,018 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:22:45] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:22:46,231 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:22:46] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:22:46,275 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:22:46] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:22:47,483 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:22:47] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:22:47,528 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:22:47] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:22:48,773 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:22:48] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:22:48,818 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:22:48] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:22:50,044 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:22:50] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:22:50,150 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:22:50] "[31m[1mPOST //login HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:22:55,199 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:22:55] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:22:55,539 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:22:55] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:22:56,415 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:22:56] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:22:56,460 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:22:56] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:22:57,612 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:22:57] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:22:57,659 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:22:57] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:22:58,815 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:22:58] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:22:58,869 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:22:58] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:23:00,029 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:23:00] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:23:00,075 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:23:00] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:23:01,250 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:23:01] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:23:01,294 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:23:01] "[31m[1mPOST //login HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:23:05,475 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:23:05] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:23:05,521 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:23:05] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:23:05,741 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:23:05] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:23:05,788 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:23:05] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:23:09,964 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:23:09] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:23:10,009 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:23:10] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:23:14,190 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:23:14] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:23:14,235 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:23:14] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:23:18,408 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:23:18] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:23:18,452 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:23:18] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:23:22,630 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:23:22] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:23:22,678 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:23:22] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:23:22,893 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:23:22] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:23:22,938 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:23:22] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:25:38,859 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:25:38] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:25:38,914 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:25:38] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:25:39,106 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:25:39] "GET //10000000 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:25:39,272 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:25:39] "GET /manager/10000000 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:25:39,355 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:25:39] "GET //10000000 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:25:39,437 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:25:39] "GET /stats/10000000 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:25:39,524 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:25:39] "GET /manager/10000000 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:26:45,879 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:26:45] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:26:45,927 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:26:45] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:26:46,158 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:26:46] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:26:46,402 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:26:46] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:26:46,443 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:26:46] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:26:46,731 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:26:46] "GET /stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:26:46,814 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:26:46] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:26:58,869 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:26:58] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:26:58,873 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:26:58] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:26:59,084 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:26:59] "POST /reimbursement/approve HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:26:59,088 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:26:59] "OPTIONS /reimbursement/disapprove HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:26:59,295 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:26:59] "POST /reimbursement/disapprove HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:26:59,463 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:26:59] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:26:59,631 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:26:59] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:29:51,400 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:29:51] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:29:51,444 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:29:51] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:29:51,656 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:29:51] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:29:51,954 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:29:51] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:29:51,994 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:29:51] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:29:52,198 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:29:52] "GET /stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:29:52,280 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:29:52] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:03,809 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:13,950 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:13] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:14,036 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:14] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:14,306 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:14] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:14,586 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:14] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:14,627 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:14] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:14,834 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:14] "GET /stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:14,959 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:14] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:17,375 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:17] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:17,381 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:17] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:17,593 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:17] "POST /reimbursement/approve HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:17,765 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:17] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:17,972 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:17] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:18,460 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:18] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:18,569 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:18] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:18,653 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:18] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:19,671 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:19] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:19,714 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:19] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:20,957 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:20] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:21,001 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:21] "[31m[1mPOST //login HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:25,244 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:25] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:25,397 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:25] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:26,634 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:26] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:26,798 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:26] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:27,044 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:27] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:27,291 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:27] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:27,332 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:27] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:27,540 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:27] "GET /stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:27,628 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:27] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:28,977 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:28] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:29,172 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:29] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:29,416 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:29] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:29,457 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:29] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:29,741 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:29] "GET /stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:29,787 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:29] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:33,199 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:33] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:33,639 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:33] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:33,756 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:33] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:33,842 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:33] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:36,427 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:36] "OPTIONS /reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2022-02-16 15:30:36,430 - main - : Exception on /reimbursement [POST] in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\main.py", line 97, in service_create_reimbursement
+    new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\service_layer\implementation_classes\reimbursement_service_imp.py", line 27, in service_create_reimbursement
+    reimbursement.amount <= 20000 and
+TypeError: '<=' not supported between instances of 'str' and 'int'
+[INFO] - 2022-02-16 15:30:36,432 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:36] "[35m[1mPOST /reimbursement HTTP/1.1[0m" 500 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:50,686 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:50] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:50,732 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:50] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:50,895 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:50] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:50,989 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:50] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:53,888 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:53] "OPTIONS /reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2022-02-16 15:30:53,891 - main - : Exception on /reimbursement [POST] in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\main.py", line 97, in service_create_reimbursement
+    new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\service_layer\implementation_classes\reimbursement_service_imp.py", line 27, in service_create_reimbursement
+    reimbursement.amount <= 20000 and
+TypeError: '<=' not supported between instances of 'str' and 'int'
+[INFO] - 2022-02-16 15:30:53,892 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:53] "[35m[1mPOST /reimbursement HTTP/1.1[0m" 500 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:58,121 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:58] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:58,166 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:58] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:58,290 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:58] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:30:58,382 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:30:58] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:01,312 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:01] "OPTIONS /reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:01,315 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:01] "[31m[1mPOST /reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:05,567 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:05] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:05,615 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:05] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:05,729 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:05] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:05,910 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:05] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:06,106 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:06] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:06,268 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:06] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:06,352 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:06] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:06,611 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:06] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:06,732 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:06] "GET /stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:06,858 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:06] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:06,984 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:06] "GET /stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:12,619 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:19,037 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:19] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:19,190 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:19] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:19,412 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:19] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:19,661 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:19] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:19,702 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:19] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:19,922 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:19] "GET /stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:20,045 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:20] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:21,426 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:21] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:21,432 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:21] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:21,643 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:21] "POST /reimbursement/approve HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:21,813 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:21] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:22,037 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:22] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:22,453 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:22] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:22,675 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:22] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:22,921 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:22] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:22,963 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:22] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:23,164 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:23] "GET /stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:23,254 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:23] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:24,707 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:24] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:24,713 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:24] "OPTIONS /reimbursement/disapprove HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:24,921 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:24] "POST /reimbursement/disapprove HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:25,100 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:25] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:25,277 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:25] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:25,762 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:25] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:25,806 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:25] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:26,009 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:26] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:26,303 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:26] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:26,347 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:26] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:26,592 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:26] "GET /stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:26,675 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:26] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:29,148 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:29] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:29,153 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:29] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:29,404 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:29] "POST /reimbursement/approve HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:29,568 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:29] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:29,751 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:29] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:30,286 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:30] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:30,391 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:30] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:30,477 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:30] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:31,512 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:31] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:31,558 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:31] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:32,796 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:32] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:32,880 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:32] "[31m[1mPOST //login HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:37,090 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:37] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:37,231 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:37] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:38,444 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:38] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:38,487 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:38] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:38,682 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:38] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:38,941 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:38] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:38,983 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:38] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:39,193 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:39] "GET /stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:39,274 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:39] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:40,777 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:40] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:40,964 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:40] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:41,215 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:41] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:41,258 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:41] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:41,461 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:41] "GET /stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:41,544 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:41] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:45,002 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:45] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:45,138 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:45] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:45,292 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:45] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:45,378 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:45] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:31:48,200 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:48] "OPTIONS /reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2022-02-16 15:31:48,310 - main - : Exception on /reimbursement [POST] in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\main.py", line 97, in service_create_reimbursement
+    new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\service_layer\implementation_classes\reimbursement_service_imp.py", line 27, in service_create_reimbursement
+    reimbursement.amount <= 20000 and
+TypeError: '<=' not supported between instances of 'str' and 'int'
+[INFO] - 2022-02-16 15:31:48,313 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:31:48] "[35m[1mPOST /reimbursement HTTP/1.1[0m" 500 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:32:02,495 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:32:02] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:32:02,540 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:32:02] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:32:02,654 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:32:02] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:32:02,740 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:32:02] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:32:05,724 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:32:05] "OPTIONS /reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2022-02-16 15:32:05,886 - main - : Exception on /reimbursement [POST] in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\main.py", line 97, in service_create_reimbursement
+    new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\service_layer\implementation_classes\reimbursement_service_imp.py", line 27, in service_create_reimbursement
+    reimbursement.amount <= 20000 and
+TypeError: '<=' not supported between instances of 'str' and 'int'
+[INFO] - 2022-02-16 15:32:05,888 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:32:05] "[35m[1mPOST /reimbursement HTTP/1.1[0m" 500 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:32:09,960 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:32:09] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:32:10,006 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:32:10] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:32:10,121 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:32:10] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:32:10,206 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:32:10] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:32:13,163 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:32:13] "OPTIONS /reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:32:13,166 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:32:13] "[31m[1mPOST /reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:32:17,402 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:32:17] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:32:17,448 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:32:17] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:32:17,565 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:32:17] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:32:17,744 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:32:17] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:32:17,938 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:32:17] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:32:18,104 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:32:18] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:32:18,187 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:32:18] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:32:18,393 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:32:18] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:32:18,596 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:32:18] "GET /stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:32:18,677 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:32:18] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:32:18,799 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:32:18] "GET /stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:10,373 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:18,564 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:18] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:18,665 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:18] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:18,893 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:18] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:19,140 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:19] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:19,184 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:19] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:19,410 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:19] "GET /stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:19,534 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:19] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:20,914 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:20] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:20,944 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:20] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:21,156 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:21] "POST /reimbursement/approve HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:21,335 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:21] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:21,545 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:21] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:22,027 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:22] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:22,235 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:22] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:22,486 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:22] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:22,528 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:22] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:22,743 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:22] "GET /stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:22,824 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:22] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:24,275 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:24] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:24,280 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:24] "OPTIONS /reimbursement/disapprove HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:24,484 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:24] "POST /reimbursement/disapprove HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:24,651 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:24] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:24,816 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:24] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:25,339 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:25] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:25,383 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:25] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:25,566 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:25] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:25,854 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:25] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:25,904 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:25] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:26,160 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:26] "GET /stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:26,249 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:26] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:28,723 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:28] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:29,014 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:29] "OPTIONS /reimbursement/approve HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:29,319 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:29] "POST /reimbursement/approve HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:29,486 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:29] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:29,664 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:29] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:29,970 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:29] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:30,088 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:30] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:30,175 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:30] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:31,157 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:31] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:31,202 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:31] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:31,406 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:31] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:31,648 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:31] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:31,688 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:31] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:31,889 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:31] "GET /stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:31,976 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:31] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:32,453 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:32] "[31m[1mPOST //login HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:36,621 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:36] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:36,665 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:36] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:36,778 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:36] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:38,036 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:38] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:38,233 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:38] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:38,479 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:38] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:38,520 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:38] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:38,727 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:38] "GET /stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:38,817 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:38] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:40,348 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:40] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:40,547 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:40] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:40,796 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:40] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:40,837 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:40] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:41,045 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:41] "GET /stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:41,128 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:41] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:44,569 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:44] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:44,613 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:44] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:44,718 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:44] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:44,804 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:44] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:33:47,792 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:47] "OPTIONS /reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2022-02-16 15:33:47,826 - main - : Exception on /reimbursement [POST] in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\main.py", line 97, in service_create_reimbursement
+    new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\service_layer\implementation_classes\reimbursement_service_imp.py", line 27, in service_create_reimbursement
+    reimbursement.amount <= 20000 and
+TypeError: '<=' not supported between instances of 'str' and 'int'
+[INFO] - 2022-02-16 15:33:47,829 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:33:47] "[35m[1mPOST /reimbursement HTTP/1.1[0m" 500 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:34:02,110 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:34:02] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:34:02,161 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:34:02] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:34:02,284 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:34:02] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:34:02,369 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:34:02] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:34:05,325 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:34:05] "OPTIONS /reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2022-02-16 15:34:05,328 - main - : Exception on /reimbursement [POST] in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\main.py", line 97, in service_create_reimbursement
+    new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\service_layer\implementation_classes\reimbursement_service_imp.py", line 27, in service_create_reimbursement
+    reimbursement.amount <= 20000 and
+TypeError: '<=' not supported between instances of 'str' and 'int'
+[INFO] - 2022-02-16 15:34:05,329 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:34:05] "[35m[1mPOST /reimbursement HTTP/1.1[0m" 500 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:34:09,564 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:34:09] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:34:09,617 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:34:09] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:34:09,725 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:34:09] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:34:09,816 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:34:09] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:34:12,770 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:34:12] "OPTIONS /reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:34:12,773 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:34:12] "[31m[1mPOST /reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:34:17,004 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:34:17] "OPTIONS //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:34:17,049 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:34:17] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:34:17,156 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:34:17] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:34:17,327 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:34:17] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:34:17,521 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:34:17] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:34:17,686 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:34:17] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:34:17,766 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:34:17] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:34:17,972 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:34:17] "GET //10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:34:18,219 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:34:18] "GET /stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:34:18,261 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:34:18] "GET /manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-16 15:34:18,398 - werkzeug - : 127.0.0.1 - - [16/Feb/2022 15:34:18] "GET /stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:13:23,101 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:13:26,480 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:13:26] "GET / HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:13:26,661 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:13:26] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:13:26,845 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:13:26] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:13:27,077 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:13:27] "GET //manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:13:27,427 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:13:27] "POST //reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:13:27,707 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:13:27] "POST //reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:13:27,982 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:13:27] "POST //reimbursement/approve HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:13:28,276 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:13:28] "POST //reimbursement/disapprove HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:13:28,685 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:13:28] "GET //stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:14:31,034 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:14:35,796 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:14:35] "GET / HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:14:35,973 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:14:35] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:14:36,115 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:14:36] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:14:36,330 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:14:36] "GET //manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:14:36,642 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:14:36] "POST //reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:14:36,900 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:14:36] "POST //reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:14:37,201 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:14:37] "POST //reimbursement/approve HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:14:37,532 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:14:37] "POST //reimbursement/disapprove HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:14:37,829 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:14:37] "GET //stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:16:08,894 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:16:08] "GET / HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:16:09,018 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:16:09] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:16:09,181 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:16:09] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:16:09,461 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:16:09] "GET //manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:16:09,764 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:16:09] "POST //reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:16:10,071 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:16:10] "POST //reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:16:10,365 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:16:10] "POST //reimbursement/approve HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:16:10,662 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:16:10] "POST //reimbursement/disapprove HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:16:11,048 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:16:11] "GET //stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:16:13,627 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:16:13] "GET / HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:16:13,730 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:16:13] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:16:13,848 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:16:13] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:16:14,095 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:16:14] "GET //manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:16:14,380 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:16:14] "POST //reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:16:14,670 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:16:14] "POST //reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:16:14,960 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:16:14] "POST //reimbursement/approve HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:16:15,266 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:16:15] "POST //reimbursement/disapprove HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:16:15,575 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:16:15] "GET //stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:26:57,021 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:26:57] "[31m[1mPOST //login HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:27:03,898 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:27:27,244 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:27:27] "[31m[1mPOST //login HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:27:57,337 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:27:57] "[31m[1mPOST //login HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:40:50,968 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:40:50] "[31m[1mGET //z HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:40:53,640 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:40:53] "[31m[1mGET //30 HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:43:10,005 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:43:10] "[31m[1mGET //manager/829 HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:43:53,579 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:43:53] "[31m[1mGET //manager/g HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:43:56,595 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:43:56] "GET //manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:44:12,278 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:44:12] "[31m[1mGET //manager/46 HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:44:25,820 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:44:25] "[31m[1mGET //manager/58 HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:44:28,000 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:44:28] "[31m[1mGET //manager/k HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:48:51,039 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:48:51] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:49:37,992 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:49:37] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:49:49,386 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:49:49] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:49:51,976 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:49:51] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:49:56,309 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:50:00,344 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:50:00] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:50:04,691 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:50:04] "POST //reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:50:21,757 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:50:21] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:50:26,529 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:50:26] "[31m[1mPOST //login HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:50:36,615 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:50:36] "[31m[1mPOST //login HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:51:25,914 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:51:25] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:51:29,496 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:51:29] "[31m[1mPOST //login HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:51:52,995 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:51:52] "GET / HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:51:54,728 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:51:54] "[31m[1mPOST //login HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:52:14,944 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:52:14] "POST //login HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:52:25,167 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:52:25] "[31m[1mPOST //login HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:52:28,222 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:52:28] "GET //10000002 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:52:30,182 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:52:30] "[31m[1mGET //t HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:52:32,021 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:52:32] "[31m[1mGET //669 HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:52:34,462 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:52:34] "GET //manager/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:52:36,890 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:52:36] "[31m[1mGET //manager/4 HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:52:39,424 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:52:39] "[31m[1mGET //manager/863 HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:52:42,154 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:52:42] "POST //reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:52:45,846 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:52:45] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:54:21,573 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:54:21] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:54:24,800 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:54:24] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:54:32,254 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:54:32] "POST //reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:54:58,128 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:54:58] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 12:55:02,152 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 12:55:02] "POST //reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:18:55,192 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:19:05,840 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:19:05] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:21:13,974 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:21:44,886 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:21:44] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:21:49,621 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:21:49] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:22:02,696 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:22:02] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:22:19,194 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:22:19] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:22:28,329 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:22:28] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:22:31,659 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:22:31] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:22:41,776 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:22:41] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:23:43,065 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:23:43] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:23:59,654 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:23:59] "POST //reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:24:19,618 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:24:19] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:25:00,168 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:25:03,586 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:25:03] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:25:16,033 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:25:18,371 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:25:18] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:25:22,662 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:26:58,414 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:27:01,003 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:27:01] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:27:02,941 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:27:02] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:27:57,647 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:28:00,028 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:28:00] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:28:03,491 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:28:03] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2022-02-17 14:28:06,194 - main - : Exception on /reimbursement [POST] in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\main.py", line 97, in service_create_reimbursement
+    new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\service_layer\implementation_classes\reimbursement_service_imp.py", line 30, in service_create_reimbursement
+    if len(reimbursement.reason) > 0 and len(reimbursement.employee_id) > 0 and len(reimbursement.amount) > 0:
+TypeError: object of type 'int' has no len()
+[INFO] - 2022-02-17 14:28:06,214 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:28:06] "[35m[1mPOST //reimbursement HTTP/1.1[0m" 500 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2022-02-17 14:28:10,904 - main - : Exception on /reimbursement [POST] in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\main.py", line 97, in service_create_reimbursement
+    new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\service_layer\implementation_classes\reimbursement_service_imp.py", line 30, in service_create_reimbursement
+    if len(reimbursement.reason) > 0 and len(reimbursement.employee_id) > 0 and len(reimbursement.amount) > 0:
+TypeError: object of type 'int' has no len()
+[INFO] - 2022-02-17 14:28:10,905 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:28:10] "[35m[1mPOST //reimbursement HTTP/1.1[0m" 500 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:28:14,145 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2022-02-17 14:28:15,972 - main - : Exception on /reimbursement [POST] in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\main.py", line 97, in service_create_reimbursement
+    new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\service_layer\implementation_classes\reimbursement_service_imp.py", line 30, in service_create_reimbursement
+    if len(reimbursement.reason) > 0 and len(reimbursement.employee_id) > 0 and len(reimbursement.amount) > 0:
+TypeError: object of type 'int' has no len()
+[INFO] - 2022-02-17 14:28:15,974 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:28:15] "[35m[1mPOST //reimbursement HTTP/1.1[0m" 500 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2022-02-17 14:28:17,191 - main - : Exception on /reimbursement [POST] in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\main.py", line 97, in service_create_reimbursement
+    new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\service_layer\implementation_classes\reimbursement_service_imp.py", line 30, in service_create_reimbursement
+    if len(reimbursement.reason) > 0 and len(reimbursement.employee_id) > 0 and len(reimbursement.amount) > 0:
+TypeError: object of type 'int' has no len()
+[INFO] - 2022-02-17 14:28:17,192 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:28:17] "[35m[1mPOST //reimbursement HTTP/1.1[0m" 500 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2022-02-17 14:28:18,460 - main - : Exception on /reimbursement [POST] in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\main.py", line 97, in service_create_reimbursement
+    new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\service_layer\implementation_classes\reimbursement_service_imp.py", line 30, in service_create_reimbursement
+    if len(reimbursement.reason) > 0 and len(reimbursement.employee_id) > 0 and len(reimbursement.amount) > 0:
+TypeError: object of type 'int' has no len()
+[INFO] - 2022-02-17 14:28:18,461 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:28:18] "[35m[1mPOST //reimbursement HTTP/1.1[0m" 500 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2022-02-17 14:28:19,426 - main - : Exception on /reimbursement [POST] in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\main.py", line 97, in service_create_reimbursement
+    new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\service_layer\implementation_classes\reimbursement_service_imp.py", line 30, in service_create_reimbursement
+    if len(reimbursement.reason) > 0 and len(reimbursement.employee_id) > 0 and len(reimbursement.amount) > 0:
+TypeError: object of type 'int' has no len()
+[INFO] - 2022-02-17 14:28:19,427 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:28:19] "[35m[1mPOST //reimbursement HTTP/1.1[0m" 500 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:28:22,765 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2022-02-17 14:28:24,704 - main - : Exception on /reimbursement [POST] in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\main.py", line 97, in service_create_reimbursement
+    new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\service_layer\implementation_classes\reimbursement_service_imp.py", line 30, in service_create_reimbursement
+    if len(reimbursement.reason) > 0 and len(reimbursement.employee_id) > 0 and len(reimbursement.amount) > 0:
+TypeError: object of type 'int' has no len()
+[INFO] - 2022-02-17 14:28:24,707 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:28:24] "[35m[1mPOST //reimbursement HTTP/1.1[0m" 500 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2022-02-17 14:28:37,641 - main - : Exception on /reimbursement [POST] in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\main.py", line 97, in service_create_reimbursement
+    new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\service_layer\implementation_classes\reimbursement_service_imp.py", line 30, in service_create_reimbursement
+    if len(reimbursement.reason) > 0 and len(reimbursement.employee_id) > 0 and len(reimbursement.amount) > 0:
+TypeError: object of type 'int' has no len()
+[INFO] - 2022-02-17 14:28:37,642 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:28:37] "[35m[1mPOST //reimbursement HTTP/1.1[0m" 500 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:28:46,149 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2022-02-17 14:28:50,012 - main - : Exception on /reimbursement [POST] in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\main.py", line 97, in service_create_reimbursement
+    new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\service_layer\implementation_classes\reimbursement_service_imp.py", line 30, in service_create_reimbursement
+    if len(reimbursement.reason) > 0 and len(reimbursement.employee_id) > 0 and len(reimbursement.amount) > 0:
+TypeError: object of type 'int' has no len()
+[INFO] - 2022-02-17 14:28:50,015 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:28:50] "[35m[1mPOST //reimbursement HTTP/1.1[0m" 500 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:29:11,419 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:29:15,982 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:29:15] "POST //reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:29:20,062 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:29:20] "POST //reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:29:25,926 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:29:25] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:30:06,396 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:30:08,840 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:30:08] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:30:13,962 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:30:13] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:30:16,278 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:30:16] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:30:54,119 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:30:59,191 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:30:59] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:31:02,700 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:31:02] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:31:05,110 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:31:05] "POST //reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:31:07,775 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:31:07] "POST //reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[ERROR] - 2022-02-17 14:31:14,447 - main - : Exception on /reimbursement/approve [POST] in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py:1457
+Traceback (most recent call last):
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\main.py", line 115, in service_approve_reimbursement
+    new_reimbursement = reimbursement_service.service_approve_reimbursement(reimbursement_to_return)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\service_layer\implementation_classes\reimbursement_service_imp.py", line 36, in service_approve_reimbursement
+    return self.reimbursement_dao.approve_reimbursement(reimbursement)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\data_access_layer\implementation_classes\reimbursement_dao_imp.py", line 52, in approve_reimbursement
+    checked_reimbursement = self.get_reimbursement(reimbursement.reimbursement_id)
+  File "D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project 1\Project-1\data_access_layer\implementation_classes\reimbursement_dao_imp.py", line 24, in get_reimbursement
+    raise ReimbursementCouldNotBeFound('The reimbursement could not be found.')
+custom_exceptions.reimbursement_could_not_be_found.ReimbursementCouldNotBeFound: The reimbursement could not be found.
+[INFO] - 2022-02-17 14:31:14,449 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:31:14] "[35m[1mPOST //reimbursement/approve HTTP/1.1[0m" 500 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:31:21,785 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:31:21] "POST //reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:31:25,555 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:31:25] "POST //reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:31:28,150 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:31:28] "POST //reimbursement/approve HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:31:30,317 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:31:30] "POST //reimbursement/disapprove HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:31:33,206 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:31:33] "GET //stats/10000001 HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:31:45,128 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:31:45] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:35:00,008 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:35:02,663 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:35:02] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:35:06,961 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:35:06] "POST //reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:57:43,992 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:57:46,278 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:57:46] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:57:49,920 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:57:49] "POST //reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:57:52,558 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:57:52] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:58:21,824 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:59:06,608 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:59:09,298 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:59:09] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:59:11,846 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:59:11] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:59:14,108 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:59:14] "POST //reimbursement HTTP/1.1" 200 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:59:17,248 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:59:17] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 14:59:25,602 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 14:59:25] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 15:00:55,074 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 15:00:58,816 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 15:00:58] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 15:01:09,946 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-17 15:01:12,727 - werkzeug - : 127.0.0.1 - - [17/Feb/2022 15:01:12] "[31m[1mPOST //reimbursement HTTP/1.1[0m" 400 - in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Environments\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-19 12:34:12,072 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\environment\lib\site-packages\werkzeug\_internal.py:225
+[INFO] - 2022-02-19 12:46:25,785 - werkzeug - :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) in D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\environment\lib\site-packages\werkzeug\_internal.py:225

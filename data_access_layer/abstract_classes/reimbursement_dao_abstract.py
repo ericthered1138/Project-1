@@ -5,7 +5,7 @@ from entities.reimbursement import Reimbursement
 class ReimbursementDAO(ABC):
 
     @abstractmethod
-    def get_reimbursement(self, reimbursement: Reimbursement) -> Reimbursement:
+    def get_reimbursement(self, reimbursement_id: int) -> Reimbursement:
         """To get a reimbursement."""
         pass
 
@@ -15,11 +15,11 @@ class ReimbursementDAO(ABC):
         pass
 
     @abstractmethod
-    def approve_reimbursement(self, reimbursement: Reimbursement) -> bool:
+    def approve_reimbursement(self, reimbursement: Reimbursement) -> Reimbursement:
         """For managers, to approve a reimbursement."""
         pass
 
     @abstractmethod
-    def disapprove_reimbursement(self, reimbursement: Reimbursement) -> bool:
+    def deny_reimbursement(self, reimbursement: Reimbursement) -> Reimbursement:
         """For managers, to disapprove a reimbursement."""
         pass

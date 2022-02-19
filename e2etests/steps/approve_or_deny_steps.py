@@ -5,7 +5,7 @@ from behave import Given as given, When as when, Then as then
 
 @given(u'the manager is on the manager page')
 def manager_log_in(context):
-    url = r"D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Second Build\website\login_page.html"
+    url = r"http://127.0.0.1:5500/website/login_page.html"
     context.driver.get(url)
     context.login_page.pom_enter_username().send_keys("KarlSagan888888")
     context.login_page.pom_enter_password().send_keys("karlsaganrules")
@@ -65,9 +65,3 @@ def manager_clicks_on_comment_approve(context):
 def check_to_make_sure_the_comment_is_there(context):
     time.sleep(1)
     assert context.manager_page.pom_grab_the_new_reimbursement("the universe")
-
-
-
-
-
-

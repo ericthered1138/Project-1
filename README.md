@@ -1,8 +1,11 @@
 Expense Reimbursement System
-Project Description
 
-This application implements an expense reimbursement system for a company. Employees are able to create reimbursement requests and view their current reimbursements. Managers are able to view past/pending reimbursements, as well as approve/deny reimbursements while leaving a message for the employee.
+This application implements an expense reimbursement system for a company. Employees are able to create reimbursement
+requests and view their current reimbursements. Managers are able to view past/pending reimbursements, as well as
+approve/deny reimbursements while leaving a message for the employee.
+
 Technologies Used
+
 IDEs
 
     PyCharm
@@ -14,9 +17,10 @@ Languages
 
     Python
     Postgres SQL
+    Javascript
     HTML
     CSS
-    Javascript
+    Selenium with Behave
 
 Features
 
@@ -25,10 +29,8 @@ Features
     Managers are able to leave comments on the reimbursement stating a reason why they have been approved/denied.
 
 To-do list:
-    
-    A manager who manages themself can approve their own reimbursement.
-    I would like to work on the frontend.
-    There are massive security holes that would need to be filled.
+
+    More work on the frontend.
 
 Getting Started
 
