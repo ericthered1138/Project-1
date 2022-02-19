@@ -31,7 +31,7 @@ class ReimbursementDAOImp(ReimbursementDAO):
         cursor.execute(sql, {"employee_id": reimbursement.employee_id})
         employee_record = cursor.fetchone()
         if not employee_record:
-            raise EmployeeCouldNotBeFound('Employee could not be found.')
+            raise EmployeeCouldNotBeFound("Employee could not be found.")
 
         # Create the reimbursement.
         sql = "insert into reimbursement_table (reimbursement_id, employee_id, amount, reason) " \

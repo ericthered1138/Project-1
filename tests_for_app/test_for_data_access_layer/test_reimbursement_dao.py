@@ -77,7 +77,7 @@ def test_create_reimbursement_failure():
         assert False
     except EmployeeCouldNotBeFound as e:
         print(e)
-        assert str(e) == 'Employee could not be found.'
+        assert str(e) == "Employee could not be found."
 
 
 def test_approve_reimbursement_success(create_fake_reimbursement):
@@ -102,7 +102,7 @@ def test_deny_reimbursement_success(create_fake_reimbursement):
     returned_reimbursement = reimbursement_dao.deny_reimbursement(test_reimbursement)
     print(returned_reimbursement)
     assert returned_reimbursement
-    
+
 
 def test_deny_reimbursement_failure(create_fake_reimbursement):
     test_reimbursement = Reimbursement(reimbursement_id=12345)

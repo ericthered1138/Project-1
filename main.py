@@ -48,7 +48,7 @@ def service_check_employee_login():
         employee_username = info["employeeUsername"]
         employee_passcode = info["employeePasscode"]
     else:
-        return {"manager_if": "incorrectly entered"}
+        return "Error: Username or Password not entered.", 400
 
     try:
         employee_to_return = Employee(login=employee_username, passcode=employee_passcode)
@@ -93,7 +93,7 @@ def service_create_reimbursement():
     try:
         info = request.get_json()
         reimbursement_to_return = Reimbursement(
-            employee_id=info["employeeId"], amount=info["amount"], reason=info["reason"])
+            employee_id=info["employeeId"], amount=info["amount"], reason=str(info["reason"]))
         new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
         reimbursement_as_dict = new_reimbursement.make_dictionary()
         reimbursement_as_json = jsonify(reimbursement_as_dict)

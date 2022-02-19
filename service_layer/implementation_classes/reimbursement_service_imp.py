@@ -22,11 +22,16 @@ class ReimbursementServiceImp(ReimbursementService):
 
     def service_create_reimbursement(self, reimbursement: Reimbursement) -> Reimbursement:
         """Check to make sure the reimbursement is valid"""
+        # Raise an error if the reimbursement reason or amount is empty.
+        if not reimbursement.amount or not reimbursement.reason:
+            raise InvalidReimbursement('That reimbursement is not valid.')
+
         if not (str(reimbursement.employee_id).isnumeric() and
                 self.is_float(reimbursement.amount) and
                 reimbursement.amount <= 20000 and
                 len(reimbursement.reason) <= 280):
             raise InvalidReimbursement('That reimbursement is not valid.')
+
         return self.reimbursement_dao.create_reimbursement(reimbursement)
 
     def service_approve_reimbursement(self, reimbursement: Reimbursement) -> Reimbursement:
