@@ -7,8 +7,6 @@ H
 tests_for_app/report.css,a\3\a3bc0d07033d444afdf8ec94bc29cbe3dfeb48e6
 p
 @data_access_layer/abstract_classes/reimbursement_dao_abstract.py,1\a\1a2b8d289429791823cdf7c2016c99b43e53c8df
-K
-util/database_connection.py,8\c\8c326ba587a4284574861a310da04caa55f66c66
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
