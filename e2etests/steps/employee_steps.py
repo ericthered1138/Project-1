@@ -6,7 +6,7 @@ from behave import Given as given, When as when, Then as then
 @given(u'the employee is on the employee page')
 def get_employee_page(context):
     # log into the employee page from the login page
-    url = r"http://127.0.0.1:5500/website/login_page.html"
+    url = r"D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project-1\website\login_page.html"
     context.driver.get(url)
     time.sleep(1)
     context.login_page.pom_enter_username().send_keys("passwordistaco")

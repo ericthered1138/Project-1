@@ -5,7 +5,7 @@ from behave import Given as given, When as when, Then as then
 
 @given(u'the manager is on their page')
 def get_to_the_manager_page(context):
-    url = r"http://127.0.0.1:5500/website/login_page.html"
+    url = r"D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project-1\website\login_page.html"
     context.driver.get(url)
     context.login_page.pom_enter_username().send_keys("KarlSagan888888")
     context.login_page.pom_enter_password().send_keys("karlsaganrules")

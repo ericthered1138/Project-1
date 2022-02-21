@@ -5,7 +5,7 @@ from behave import Given as given, When as when, Then as then
 
 @given(u'the employee is on the login page')
 def get_login_page(context):
-    url = r"http://127.0.0.1:5500/website/login_page.html"
+    url = r"D:\MyDrive\Eric's Documents\0 Real Documents Folder\Revature\Project 1\Project-1\website\login_page.html"
     context.driver.get(url)
 
 
