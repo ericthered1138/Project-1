@@ -1,0 +1,648 @@
+{
+	"info": {
+		"_postman_id": "6675fb3a-0000-45fe-9623-59af9169952a",
+		"name": "Project 1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Check if on. Copy",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}",
+					"host": [
+						"{{baseUrl}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"employeeUsername\": \"KarlSagan888888\",\r\n    \"employeePasscode\":\"karlsaganrules\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/login",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check Login Failure",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 400\", function () {\r",
+							"    pm.response.to.have.status(400);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"employeeUsername\": \"{{$randomUserName}}\",\r\n    \"employeePasscode\":\"{{$randomPassword}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/login",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check Login Failure Not Entered",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 400\", function () {\r",
+							"    pm.response.to.have.status(400);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/login",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check Get Employee Reimbursements",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/10000002",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"10000002"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check Get Employee Reimbursements Failure Bad ID",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 400\", function () {\r",
+							"    pm.response.to.have.status(400);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/{{$randomAlphaNumeric}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"{{$randomAlphaNumeric}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check Get Employee Reimbursements Failure Wrong ID",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 400\", function () {\r",
+							"    pm.response.to.have.status(400);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/{{$randomInt}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"{{$randomInt}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check Get Manager Reimbursements",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/manager/10000001",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"manager",
+						"10000001"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check Get Manager Reimbursements Failure Bad ID",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 400\", function () {\r",
+							"    pm.response.to.have.status(400);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/manager/{{$randomAlphaNumeric}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"manager",
+						"{{$randomAlphaNumeric}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check Get Manager Reimbursements Failure Wrong ID",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 400\", function () {\r",
+							"    pm.response.to.have.status(400);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/manager/{{$randomInt}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"manager",
+						"{{$randomInt}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check Create Reimbursement",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const reimbursement = pm.response.json();\r",
+							"pm.globals.set(\"reimbursement_1\", reimbursement[\"reimbursement_id\"]);\r",
+							"\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"employeeId\": 10000002,\r\n    \"amount\": 23.12,\r\n    \"reason\":\"testing to see if it works\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/reimbursement",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"reimbursement"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check Create Reimbursement Failure Bad ID",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 400\", function () {\r",
+							"    pm.response.to.have.status(400);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"employeeId\": \"{{randomInt}}\",\r\n    \"amount\": 23.12,\r\n    \"reason\":\"testing to see if it works\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/reimbursement",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"reimbursement"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check Create Reimbursement Failure No Reason",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 400\", function () {\r",
+							"    pm.response.to.have.status(400);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"employeeId\": 10000002,\r\n    \"amount\": 23.12,\r\n    \"reason\":\"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/reimbursement",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"reimbursement"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check Create Reimbursement Random Amount",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"employeeId\": 10000002,\r\n    \"amount\": {{$randomPrice}},\r\n    \"reason\":\"testing to see if it works\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/reimbursement",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"reimbursement"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check Create Reimbursement Copy",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const reimbursement = pm.response.json();\r",
+							"pm.globals.set(\"reimbursement_2\", reimbursement[\"reimbursement_id\"]);\r",
+							"\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"employeeId\": 10000002,\r\n    \"amount\": 27,\r\n    \"reason\":\"testing to see if it works\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/reimbursement",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"reimbursement"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check Approve Reimbursement",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"reimbursementId\": {{reimbursement_1}},\r\n    \"managerComment\": \"Good idea\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/reimbursement/approve",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"reimbursement",
+						"approve"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check Deny Reimbursement",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"reimbursementId\": {{reimbursement_2}},\r\n    \"managerComment\": \"Bad idea\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/reimbursement/disapprove",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"reimbursement",
+						"disapprove"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check get stats list",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/stats/10000001",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"stats",
+						"10000001"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

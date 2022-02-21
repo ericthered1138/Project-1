@@ -18,11 +18,11 @@ from util.database_generator_for_testing import populate_tables_for_test, depopu
 
 import logging
 
-logging.basicConfig(filename="records.log", level=logging.DEBUG,
-                    format="[%(levelname)s] - %(asctime)s - %(name)s - : %(message)s in %(pathname)s:%(lineno)d")
-
 app: Flask = Flask(__name__)
 CORS(app)
+
+# logging.basicConfig(filename="records.log", level=logging.DEBUG,
+#                     format="[%(levelname)s] - %(asctime)s - %(name)s - : %(message)s in %(pathname)s:%(lineno)d")
 
 employee_dao = EmployeeDaoImp()
 employee_service = EmployeeServiceImp(employee_dao)
