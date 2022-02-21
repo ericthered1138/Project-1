@@ -12,7 +12,7 @@ async function createPendingReimbursementForm(){
     let pendingTable = document.getElementById("pendingReimbursementTable");
     pendingTable.innerHTML = ''
 
-    let url = "ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000//" + employeeId
+    let url = "http://ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000//" + employeeId
     const the_reimbursements = await fetch(url).then(response => {return response.json()});
     for (aReimbursementId in the_reimbursements){
         let aReimbursementObject = the_reimbursements[aReimbursementId]
@@ -51,7 +51,7 @@ async function createReimbursement(){
 
         reimbursementJson = JSON.stringify({"employeeId":employeeId, 
             "amount":reimbursementAmount, "reason":reimbursementReason})
-        let url = "ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000/reimbursement"
+        let url = "http://ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000/reimbursement"
         let the_reimbursement = await fetch(url, {
             method:"POST",
             headers:{'Content-Type': 'application/json'}, 
@@ -66,7 +66,7 @@ async function createReimbursement(){
 
 //The function to repopulate the previous reimbursements.
 async function createOldReimbursementForm(){
-    let url = "ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000//" + employeeId
+    let url = "http://ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000//" + employeeId
     const the_reimbursements = await fetch(url).then(response => {return response.json()});
     for (aReimbursementId in the_reimbursements){
         let aReimbursementObject = the_reimbursements[aReimbursementId]
@@ -102,7 +102,7 @@ createOldReimbursementForm()
 
 //The function to submit changes in the Pending Reimbursement form.
 async function submitEmployeePendingReimbursementForm(){
-    let url = "ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000/manager/" + employeeId
+    let url = "http://ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000/manager/" + employeeId
     const the_reimbursements = await fetch(url).then(response => {return response.json()});
     for (aReimbursementId in the_reimbursements){
         if (the_reimbursements[aReimbursementId].if_approved === "pending"){
@@ -115,11 +115,11 @@ async function submitEmployeePendingReimbursementForm(){
             if (pending.checked){
                 continue
             }else if(approval.checked){
-                let url = "ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000/reimbursement/approve/" + aReimbursementId
+                let url = "http://ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000/reimbursement/approve/" + aReimbursementId
                 let the_response = await fetch(url).then(response => {return response.json()});
                 console.log(the_response)
             }else if(disapproval.checked){
-                let url = "ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000/reimbursement/disapprove/" + aReimbursementId
+                let url = "http://ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000/reimbursement/disapprove/" + aReimbursementId
                 let the_response = await fetch(url).then(response => {return response.json()});
                 console.log(the_response)
             }

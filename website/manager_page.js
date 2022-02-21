@@ -13,7 +13,7 @@ async function createPendingReimbursementForm(){
     let pendingTable = document.getElementById("pendingReimbursementTable");
     pendingTable.innerHTML = ''
 
-    let url = "ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000//" + employeeId
+    let url = "http://ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000//" + employeeId
     const the_reimbursements = await fetch(url).then(response => {return response.json()});
     for (aReimbursementId in the_reimbursements){
         let aReimbursementObject = the_reimbursements[aReimbursementId]
@@ -52,7 +52,7 @@ async function createReimbursement(){
 
         reimbursementJson = JSON.stringify({"employeeId":employeeId, 
             "amount":reimbursementAmount, "reason":reimbursementReason})
-        let url = "ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000/reimbursement"
+        let url = "http://ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000/reimbursement"
         let the_reimbursement = await fetch(url, {
             method:"POST",
             headers:{'Content-Type': 'application/json'}, 
@@ -67,7 +67,7 @@ async function createReimbursement(){
 
 //The function to repopulate the previous reimbursements.
 async function createOldReimbursementForm(){
-    let url = "ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000//" + employeeId
+    let url = "http://ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000//" + employeeId
     const the_reimbursements = await fetch(url).then(response => {return response.json()});
     for (aReimbursementId in the_reimbursements){
         let aReimbursementObject = the_reimbursements[aReimbursementId]
@@ -108,7 +108,7 @@ async function createEmployeePendingReimbursementForm(){
     let pendingTable = document.getElementById("employeePendingReimbursementTable");
     pendingTable.innerHTML = ''
 
-    let url = "ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000/manager/" + employeeId
+    let url = "http://ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000/manager/" + employeeId
     const the_reimbursements = await fetch(url).then(response => {return response.json()});
     for (aReimbursementId in the_reimbursements){
         let aReimbursementObject = the_reimbursements[aReimbursementId]
@@ -167,7 +167,7 @@ async function createEmployeeOldReimbursementForm(){
     let pendingTable = document.getElementById("employeeOldReimbursementTable")
     pendingTable.innerHTML = ''
     
-    let url = "ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000/manager/" + employeeId
+    let url = "http://ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000/manager/" + employeeId
     const the_reimbursements = await fetch(url).then(response => {return response.json()});
     for (aReimbursementId in the_reimbursements){
         let aReimbursementObject = the_reimbursements[aReimbursementId]
@@ -206,7 +206,7 @@ createEmployeeOldReimbursementForm()
 
 //The function to submit changes in the Pending Reimbursement form.
 async function submitEmployeePendingReimbursementForm(){
-    let url = "ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000/manager/" + employeeId
+    let url = "http://ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000/manager/" + employeeId
     const the_reimbursements = await fetch(url).then(response => {return response.json()});
     for (aReimbursementId in the_reimbursements){
         if (the_reimbursements[aReimbursementId].if_approved === "pending"){
@@ -219,14 +219,14 @@ async function submitEmployeePendingReimbursementForm(){
             if (pending.checked){
                 continue
             }else if(approval.checked){
-                let url = "ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000/reimbursement/approve"
+                let url = "http://ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000/reimbursement/approve"
                 let the_response = await fetch(url, {
                     method:"Post",
                     headers:{'Content-Type': 'application/json'}, 
                     body:jsonBody}).then(response => {return response.json()});
                 console.log(the_response)
             }else if(disapproval.checked){
-                let url = "ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000/reimbursement/disapprove"
+                let url = "http://ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000/reimbursement/disapprove"
                 let the_response = await fetch(url, {
                     method:"Post",
                     headers:{'Content-Type': 'application/json'}, 
@@ -252,7 +252,7 @@ async function createStatisticsTable(){
     let statisticsTable = document.getElementById("statisticsTable")
     statisticsTable.innerHTML = ''
     
-    let url = "ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000/stats/" + employeeId
+    let url = "http://ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000/stats/" + employeeId
     const the_stats = await fetch(url).then(response => {return response.json()});
 
     for (anEmployee in the_stats){
