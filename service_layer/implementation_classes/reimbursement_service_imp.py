@@ -28,7 +28,7 @@ class ReimbursementServiceImp(ReimbursementService):
 
         if not (str(reimbursement.employee_id).isnumeric() and
                 self.is_float(reimbursement.amount) and
-                reimbursement.amount <= 20000 and
+                int(reimbursement.amount) <= 20000 and
                 len(reimbursement.reason) <= 280):
             raise InvalidReimbursement('That reimbursement is not valid.')
 
