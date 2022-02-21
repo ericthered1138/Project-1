@@ -153,4 +153,4 @@ def get_employee_dict(manager_id):
         return str(e), 400
 
 
-app.run()
+app.run(host='0.0.0.0')
