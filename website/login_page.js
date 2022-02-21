@@ -3,9 +3,9 @@ async function loginAttempt(){
     let username = document.getElementById("username").value
     let password = document.getElementById("password").value
 
-    //put it in a json and post it to http://127.0.0.1:5000//login
+    //put it in a json and post it to ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000//login
     loginJson = JSON.stringify({"employeeUsername":username, "employeePasscode":password})
-    let url = "http://127.0.0.1:5000//login"
+    let url = "ec2-3-135-215-83.us-east-2.compute.amazonaws.com:5000//login"
     let the_request = await fetch(url, {
         method:"POST",
         headers:{'Content-Type': 'application/json'}, 
