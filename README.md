@@ -50,6 +50,7 @@ Getting Started
     * Setup a PostgreSQL database.
     * Run the schema to create the database tables.
     * Enter the appropriate environmental variables that will be used by the database_connection.py module.
+    * Run the main.py.
     * By default, the tables will be populated with sample data that is used for end to end testing.
 
 Usage
