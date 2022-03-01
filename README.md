@@ -33,7 +33,7 @@ Features
 
 To-do list:
 
-    More work on the frontend.
+    Create seperate tabs on the frontend for the manager page.
 
 Getting Started
 
