@@ -32,11 +32,6 @@ class ReimbursementServiceImp(ReimbursementService):
                 len(reimbursement.reason) <= 280):
             raise InvalidReimbursement('That reimbursement is not valid.')
 
-        # Make sure the correct format is being used
-        # reimbursement.employee_id = int(reimbursement.employee_id)
-        # reimbursement.amount = float(reimbursement.amount)
-        # reimbursement.reason = str(reimbursement.reason)
-
         return self.reimbursement_dao.create_reimbursement(reimbursement)
 
     def service_approve_reimbursement(self, reimbursement: Reimbursement) -> Reimbursement:

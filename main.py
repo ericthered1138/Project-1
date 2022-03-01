@@ -34,6 +34,16 @@ depopulate_tables_for_test()
 populate_tables_for_test()
 
 
+# Needed to solve an issue with the ec2 instance
+def is_float(number):
+    """A method to check whether the input is a float."""
+    try:
+        float(number)
+        return True
+    except ValueError:
+        return False
+
+
 # test to see if on
 @app.get("/")
 def on():
@@ -92,12 +102,15 @@ def get_manager_reimbursements(manager_id):
 def service_create_reimbursement():
     try:
         info = request.get_json()
-        reimbursement_to_return = Reimbursement(
-            employee_id=int(info["employeeId"]), amount=float(info["amount"]), reason=str(info["reason"]))
-        new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
-        reimbursement_as_dict = new_reimbursement.make_dictionary()
-        reimbursement_as_json = jsonify(reimbursement_as_dict)
-        return reimbursement_as_json
+        if is_float(info["amount"]):
+            reimbursement_to_return = Reimbursement(
+                employee_id=int(info["employeeId"]), amount=float(info["amount"]), reason=str(info["reason"]))
+            new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
+            reimbursement_as_dict = new_reimbursement.make_dictionary()
+            reimbursement_as_json = jsonify(reimbursement_as_dict)
+            return reimbursement_as_json
+        else:
+            return 'That reimbursement is not valid.', 400
     except EmployeeCouldNotBeFound as e:
         return str(e), 400
     except InvalidReimbursement as e:
