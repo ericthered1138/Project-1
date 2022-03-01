@@ -6,12 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manager</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+      h2{
+        color: white
+      }
+    </style>
 </head>
-<body style="color-scheme: dark;">
-    <div class="container">
+<body class="bg-dark">
+    <div class="container bg-dark">
         <div class="row">
           <div>
-            <h1 id = "employeeName"></h1>
+            <h1 id = "employeeName" style="color:white"></h1>
             <button type="button" onclick="logout()" class="btn btn-secondary" value="Logout" id="logout">Logout</button>
           </div>
           <!--Reimbursement Stats Begin.-->
@@ -77,18 +82,19 @@
 
           <!--Second Column.-->
           <div class="col">
+            <h2 style="color: white">Manager Reimbursements</h2>
 
             <!--Create reimbursement form start.-->
-            <div class="row" style="background-color: brown;">
+            <div class="row" >
               <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Reimbursement Amount</label>
+                <label for="exampleFormControlInput1" class="form-label" style="color:white">Reimbursement Amount</label>
                 <input type="number" class="form-control" id="reimbursementAmount" placeholder="Enter the amount here.">
               </div>
               <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Reimbursement Reason</label>
-                <textarea class="form-control" id="reimbursementReason" rows="3"></textarea>
+                <label for="exampleFormControlTextarea1" class="form-label" style="color:white">Reimbursement Reason</label>
+                <textarea class="form-control" id="reimbursementReason" rows="3" placeholder="Enter the reimbursement reason here."></textarea>
               </div>
-              <input class="btn btn-primary" onclick="createReimbursement()" type="submit" value="Create">
+              <input class="btn btn-secondary" onclick="createReimbursement()" type="submit" value="Create">
             </div>
             <!--Create reimbursement form end.-->
             <!--Pending Reimbursement table start.-->
