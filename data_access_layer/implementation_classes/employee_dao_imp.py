@@ -67,7 +67,7 @@ class EmployeeDaoImp(EmployeeDAO):
         self.get_employee(employee.employee_id)
 
         # Get the reimbursements.
-        sql = "select * from reimbursement_table where employee_id = %(employee_id)s order by reimbursement_date desc"
+        sql = "select * from reimbursement_table where employee_id = %(employee_id)s"
         cursor = connection.cursor()
         cursor.execute(sql, {"employee_id": employee.employee_id})
         reimbursement_record = cursor.fetchall()
