@@ -11,7 +11,7 @@ reimbursement_service = ReimbursementServiceImp(reimbursement_dao)
 
 def test_service_create_reimbursement_success():
     reimbursement_dao.create_reimbursement = MagicMock(return_value=True)
-    test_reimbursement = Reimbursement(employee_id=12345, amount=42.00, reason="some Reason")
+    test_reimbursement = Reimbursement(employee_id=12345, amount=246.01, reason="some Reason")
     boolean = reimbursement_service.service_create_reimbursement(test_reimbursement)
     print(boolean)
     assert boolean is True
@@ -31,6 +31,17 @@ def test_service_create_reimbursement_failure():
 def test_service_create_reimbursement_failure_no_amount():
     reimbursement_dao.create_reimbursement = MagicMock(return_value=False)
     test_reimbursement = Reimbursement(employee_id=12345, reason="because")
+    try:
+        reimbursement_service.service_create_reimbursement(test_reimbursement)
+        assert False
+    except InvalidReimbursement as e:
+        print(e)
+        assert str(e) == 'That reimbursement is not valid.'
+
+
+def test_service_create_reimbursement_failure_alphabetic_amount():
+    reimbursement_dao.create_reimbursement = MagicMock(return_value=False)
+    test_reimbursement = Reimbursement(employee_id=12345, amount='e', reason="because")
     try:
         reimbursement_service.service_create_reimbursement(test_reimbursement)
         assert False
