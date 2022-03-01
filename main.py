@@ -93,7 +93,7 @@ def service_create_reimbursement():
     try:
         info = request.get_json()
         reimbursement_to_return = Reimbursement(
-            employee_id=info["employeeId"], amount=info["amount"], reason=str(info["reason"]))
+            employee_id=int(info["employeeId"]), amount=float(info["amount"]), reason=str(info["reason"]))
         new_reimbursement = reimbursement_service.service_create_reimbursement(reimbursement_to_return)
         reimbursement_as_dict = new_reimbursement.make_dictionary()
         reimbursement_as_json = jsonify(reimbursement_as_dict)

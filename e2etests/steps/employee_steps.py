@@ -19,7 +19,7 @@ def get_employee_page(context):
 @when(u'the employee enters an amount')
 def enter_amount(context):
     time.sleep(1)
-    context.employee_page.pom_enter_amount().send_keys("24601")
+    context.employee_page.pom_enter_amount().send_keys("246.01")
 
 
 @when(u'the employee enters a reason')
@@ -49,7 +49,7 @@ def enter_negative(context):
 @then(u'an amount error pops')
 def amount_error_check(context):
     time.sleep(1)
-    assert context.driver.switch_to.alert.text == "Invalid Entry: Amounts must be positiver numbers."
+    assert context.driver.switch_to.alert.text == "Invalid Entry"
     context.driver.switch_to.alert.accept()
 
 

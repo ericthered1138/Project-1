@@ -55,10 +55,11 @@ async function createReimbursement(){
         let the_reimbursement = await fetch(url, {
             method:"POST",
             headers:{'Content-Type': 'application/json'}, 
-            body:reimbursementJson}).then(response => {return response.json()});
+            body:reimbursementJson});
         
-        if (the_reimbursement["if_approved"] == "The amount must be numeric and positive."){
-            alert("Invalid Entry: Amounts must be positiver numbers.")
+        
+        if (the_reimbursement.status == 400){
+            alert("Invalid Entry")
         }else{
             createPendingReimbursementForm()
         }
