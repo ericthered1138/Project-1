@@ -33,7 +33,7 @@ class ReimbursementServiceImp(ReimbursementService):
             raise InvalidReimbursement('That reimbursement is not valid.')
 
         # Make sure the correct format is being used
-        reimbursement.reimbursement_id = int(reimbursement.reimbursement_id)
+        reimbursement.employee_id = int(reimbursement.employee_id)
         reimbursement.amount = float(reimbursement.amount)
         reimbursement.reason = str(reimbursement.reason)
 
