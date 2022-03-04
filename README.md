@@ -37,7 +37,7 @@ To-do list:
 
 Getting Started
 
-* AWS S3 Static Website that is running on an EC2 instance in a Jenkins
+* AWS S3 Static Website that is running on an EC2 instance utilizing Jenkins
     * http://reimbursements.s3-website.us-east-2.amazonaws.com
     * Login Employee 
         * Username: passwordistaco
